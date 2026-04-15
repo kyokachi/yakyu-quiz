@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プロ野球 経歴クイズ</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  min-height: 100dvh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+/* ホーム画面 */
+#home .title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 40px 0 8px;
+}
+
+#home .subtitle {
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 32px;
+}
+
+.filter-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.filter-section label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group label {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-bottom: 0;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: #fff;
+}
+
+#player-count {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+.btn-start {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #2563eb;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-start:hover { background: #1d4ed8; }
+.btn-start:disabled { background: #aaa; cursor: not-allowed; }
+
+/* 問題画面 */
+#quiz { display: none; }
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  font-size: 0.85rem;
+  color: #2563eb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back-link:hover { text-decoration: underline; }
+
+.counter {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 600;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin-bottom: 16px;
+}
+
+.card-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.badge-active {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-retired {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.badge-debut {
+  background: #eff6ff;
+  color: #1e40af;
+}
+
+.career-list {
+  list-style: none;
+}
+
+.career-item {
+  display: flex;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+  gap: 10px;
+}
+
+.career-item:last-child { border-bottom: none; }
+
+.career-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.career-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #888;
+  flex-shrink: 0;
+  width: 50px;
+}
+
+.career-value {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.pro-team-list {
+  list-style: none;
+}
+
+.pro-team-item {
+  padding: 2px 0;
+}
+
+.pro-team-item + .pro-team-item::before {
+  content: "↓";
+  display: block;
+  color: #bbb;
+  font-size: 0.8rem;
+  padding: 2px 0;
+}
+
+.team-years {
+  color: #888;
+  font-size: 0.8rem;
+  margin-left: 4px;
+}
+
+/* 答え表示 */
+.answer-area {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.btn-reveal {
+  display: inline-block;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #f59e0b;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-reveal:hover { background: #d97706; }
+
+.answer-name {
+  font-size: 2rem;
+  font-weight: 800;
+  opacity: 0;
+  transition: opacity 0.5s;
+  margin: 16px 0;
+}
+
+.answer-name.show { opacity: 1; }
+
+.btn-next {
+  display: none;
+  margin: 0 auto;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #2563eb;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-next:hover { background: #1d4ed8; }
+
+/* 終了画面 */
+#finish {
+  display: none;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#finish .finish-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+#finish h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+#finish .finish-stats {
+  color: #888;
+  margin-bottom: 24px;
+}
+
+.btn-retry {
+  display: inline-block;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #2563eb;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn-retry:hover { background: #1d4ed8; }
+
+.btn-home {
+  display: inline-block;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2563eb;
+  background: #fff;
+  border: 2px solid #2563eb;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-home:hover { background: #eff6ff; }
+
+/* Loading */
+#loading {
+  text-align: center;
+  padding-top: 80px;
+  color: #888;
+}
+
+.spinner {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 3px solid #ddd;
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Responsive */
+@media (max-width: 480px) {
+  #home .title { font-size: 1.4rem; }
+  .card { padding: 18px 14px; }
+  .answer-name { font-size: 1.6rem; }
+  .btn-reveal, .btn-next { padding: 12px 28px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Loading -->
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>選手データを読み込み中...</p>
+  </div>
+
+  <!-- ホーム画面 -->
+  <div id="home" style="display:none">
+    <h1 class="title">プロ野球 経歴クイズ</h1>
+    <p class="subtitle">経歴からプロ野球選手を当てよう</p>
+
+    <div class="filter-section">
+      <label>ステータス</label>
+      <div class="radio-group" id="status-filter">
+        <input type="radio" name="status" id="s-all" value="all" checked>
+        <label for="s-all">全員</label>
+        <input type="radio" name="status" id="s-active" value="active">
+        <label for="s-active">現役のみ</label>
+        <input type="radio" name="status" id="s-retired" value="retired">
+        <label for="s-retired">引退のみ</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <label>デビュー年代</label>
+      <div class="radio-group" id="decade-filter">
+        <input type="radio" name="decade" id="d-all" value="all" checked>
+        <label for="d-all">全年代</label>
+        <input type="radio" name="decade" id="d-2000" value="2000">
+        <label for="d-2000">2000年代</label>
+        <input type="radio" name="decade" id="d-2010" value="2010">
+        <label for="d-2010">2010年代</label>
+        <input type="radio" name="decade" id="d-2020" value="2020">
+        <label for="d-2020">2020年代</label>
+      </div>
+    </div>
+
+    <p id="player-count"></p>
+    <button class="btn-start" id="btn-start">スタート</button>
+  </div>
+
+  <!-- 問題画面 -->
+  <div id="quiz">
+    <div class="quiz-header">
+      <a class="back-link" id="btn-back">← ホームに戻る</a>
+      <span class="counter" id="counter"></span>
+    </div>
+    <div class="card">
+      <div class="card-meta" id="card-meta"></div>
+      <ul class="career-list" id="career-list"></ul>
+    </div>
+    <div class="answer-area">
+      <button class="btn-reveal" id="btn-reveal">答えを見る</button>
+      <div class="answer-name" id="answer-name"></div>
+      <button class="btn-next" id="btn-next">次の問題</button>
+    </div>
+  </div>
+
+  <!-- 終了画面 -->
+  <div id="finish">
+    <div class="finish-icon">🎉</div>
+    <h2>お疲れ様でした！</h2>
+    <p class="finish-stats" id="finish-stats"></p>
+    <button class="btn-retry" id="btn-retry">もう一度</button>
+    <button class="btn-home" id="btn-home-finish">ホームに戻る</button>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  let allPlayers = [];
+  let quizPlayers = [];
+  let currentIndex = 0;
+  let revealed = false;
+
+  const $ = id => document.getElementById(id);
+
+  // DOM refs
+  const elLoading  = $('loading');
+  const elHome     = $('home');
+  const elQuiz     = $('quiz');
+  const elFinish   = $('finish');
+
+  // Load data
+  fetch('players.json')
+    .then(r => r.json())
+    .then(data => {
+      allPlayers = data.players;
+      elLoading.style.display = 'none';
+      elHome.style.display = 'block';
+      updateCount();
+    })
+    .catch(err => {
+      elLoading.innerHTML = '<p style="color:#e55">データの読み込みに失敗しました。<br>players.json が同じフォルダにあるか確認してください。</p>';
+      console.error(err);
+    });
+
+  // Filter logic
+  function getFilteredPlayers() {
+    const status = document.querySelector('input[name="status"]:checked').value;
+    const decade = document.querySelector('input[name="decade"]:checked').value;
+    return allPlayers.filter(p => {
+      if (status !== 'all' && p.status !== status) return false;
+      if (decade !== 'all') {
+        const d = parseInt(decade);
+        if (p.debutYear < d || p.debutYear >= d + 10) return false;
+      }
+      return true;
+    });
+  }
+
+  function updateCount() {
+    const filtered = getFilteredPlayers();
+    $('player-count').textContent = `対象: ${filtered.length} 人`;
+    $('btn-start').disabled = filtered.length === 0;
+  }
+
+  // Listen to filter changes
+  document.querySelectorAll('input[name="status"], input[name="decade"]').forEach(el => {
+    el.addEventListener('change', updateCount);
+  });
+
+  // Shuffle
+  function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // Start quiz
+  $('btn-start').addEventListener('click', () => {
+    quizPlayers = shuffle(getFilteredPlayers());
+    if (quizPlayers.length === 0) return;
+    currentIndex = 0;
+    showScreen('quiz');
+    renderQuestion();
+  });
+
+  // Screen switching
+  function showScreen(name) {
+    elHome.style.display = 'none';
+    elQuiz.style.display = 'none';
+    elFinish.style.display = 'none';
+    if (name === 'home') elHome.style.display = 'block';
+    else if (name === 'quiz') elQuiz.style.display = 'block';
+    else if (name === 'finish') elFinish.style.display = 'block';
+  }
+
+  // Render question
+  function renderQuestion() {
+    const p = quizPlayers[currentIndex];
+    revealed = false;
+
+    // Counter
+    $('counter').textContent = `${currentIndex + 1} / ${quizPlayers.length} 問目`;
+
+    // Meta badges
+    const meta = $('card-meta');
+    meta.innerHTML = '';
+    const statusBadge = document.createElement('span');
+    statusBadge.className = 'badge ' + (p.status === 'active' ? 'badge-active' : 'badge-retired');
+    statusBadge.textContent = p.status === 'active' ? '現役' : '引退';
+    meta.appendChild(statusBadge);
+
+    if (p.debutYear) {
+      const debutBadge = document.createElement('span');
+      debutBadge.className = 'badge badge-debut';
+      debutBadge.textContent = `${p.debutYear}年デビュー`;
+      meta.appendChild(debutBadge);
+    }
+
+    // Career list
+    const list = $('career-list');
+    list.innerHTML = '';
+
+    const careerItems = [
+      { icon: '🏫', label: '高校', value: p.career.highSchool },
+      { icon: '🎓', label: '大学', value: p.career.university },
+      { icon: '🏢', label: '社会人', value: p.career.amateur },
+    ];
+
+    careerItems.forEach(item => {
+      if (!item.value) return;
+      const li = document.createElement('li');
+      li.className = 'career-item';
+      li.innerHTML = `
+        <span class="career-icon">${item.icon}</span>
+        <span class="career-label">${item.label}</span>
+        <span class="career-value">${esc(item.value)}</span>
+      `;
+      list.appendChild(li);
+    });
+
+    // Pro teams
+    if (p.career.proTeams && p.career.proTeams.length > 0) {
+      const li = document.createElement('li');
+      li.className = 'career-item';
+      let teamsHtml = '<ul class="pro-team-list">';
+      p.career.proTeams.forEach(t => {
+        teamsHtml += `<li class="pro-team-item">${esc(t.team)} <span class="team-years">(${esc(t.years)})</span></li>`;
+      });
+      teamsHtml += '</ul>';
+      li.innerHTML = `
+        <span class="career-icon">⚾</span>
+        <span class="career-label">プロ</span>
+        <span class="career-value">${teamsHtml}</span>
+      `;
+      list.appendChild(li);
+    }
+
+    // Reset answer area
+    $('btn-reveal').style.display = 'inline-block';
+    $('answer-name').textContent = '';
+    $('answer-name').classList.remove('show');
+    $('btn-next').style.display = 'none';
+  }
+
+  function esc(s) {
+    const d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  // Reveal answer
+  $('btn-reveal').addEventListener('click', () => {
+    if (revealed) return;
+    revealed = true;
+    const p = quizPlayers[currentIndex];
+    $('btn-reveal').style.display = 'none';
+    $('answer-name').textContent = p.name;
+    requestAnimationFrame(() => {
+      $('answer-name').classList.add('show');
+    });
+    $('btn-next').style.display = 'inline-block';
+  });
+
+  // Next question
+  $('btn-next').addEventListener('click', () => {
+    currentIndex++;
+    if (currentIndex >= quizPlayers.length) {
+      showScreen('finish');
+      $('finish-stats').textContent = `全 ${quizPlayers.length} 問を完了しました`;
+    } else {
+      renderQuestion();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+
+  // Back to home
+  $('btn-back').addEventListener('click', () => showScreen('home'));
+
+  // Finish screen buttons
+  $('btn-retry').addEventListener('click', () => {
+    quizPlayers = shuffle(quizPlayers);
+    currentIndex = 0;
+    showScreen('quiz');
+    renderQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  $('btn-home-finish').addEventListener('click', () => {
+    showScreen('home');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
