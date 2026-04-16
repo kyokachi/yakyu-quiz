@@ -301,6 +301,12 @@ def parse_career(infobox):
 # === Step 4: 現役/OB判定 ===
 def determine_status(infobox, career):
     """現役かOBかを判定する。"""
+    # 経歴の最後のプロ球団が開放年度 (YYYY - ) なら現役（最優先）
+    if career and career["proTeams"]:
+        last_team = career["proTeams"][-1]
+        if last_team["years"].endswith("-"):
+            return "active"
+
     # 最終出場フィールドをチェック
     last_game = extract_field(infobox, "最終出場")
     if last_game:
@@ -318,12 +324,6 @@ def determine_status(infobox, career):
         if role and role.strip():
             return "retired"
         return "active"
-
-    # 経歴の最後のプロ球団が開放年度 (YYYY - ) なら現役
-    if career and career["proTeams"]:
-        last_team = career["proTeams"][-1]
-        if last_team["years"].endswith("-"):
-            return "active"
 
     return "retired"
 
