@@ -26,14 +26,19 @@ body {
   text-align: center;
   font-size: 1.8rem;
   font-weight: 800;
-  margin: 40px 0 8px;
+  margin: 40px 0 4px;
+  letter-spacing: 0.02em;
+}
+
+#home .title-accent {
+  color: #2563eb;
 }
 
 #home .subtitle {
   text-align: center;
   color: #888;
   font-size: 0.9rem;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .filter-section {
@@ -68,17 +73,90 @@ body {
   font-size: 0.85rem;
   padding: 6px 14px;
   border-radius: 20px;
-  border: 2px solid #ddd;
+  border: 2px solid #e5e7eb;
   color: #555;
   cursor: pointer;
   transition: all 0.15s;
   margin-bottom: 0;
 }
 
+.radio-group label:hover {
+  border-color: #93c5fd;
+  background: #f0f5ff;
+  color: #2563eb;
+}
+
 .radio-group input[type="radio"]:checked + label {
   border-color: #2563eb;
   background: #2563eb;
   color: #fff;
+}
+
+.filter-details {
+  margin-bottom: 16px;
+}
+
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2563eb;
+  cursor: pointer;
+  padding: 10px 16px;
+  border: 2px solid #dbeafe;
+  border-radius: 10px;
+  background: #f0f5ff;
+  user-select: none;
+  transition: all 0.15s;
+  list-style: none;
+}
+
+.filter-toggle::-webkit-details-marker { display: none; }
+
+.filter-toggle::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #2563eb;
+  border-bottom: 2px solid #2563eb;
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+  margin-top: -2px;
+}
+
+.filter-details[open] .filter-toggle::after {
+  transform: rotate(-135deg);
+  margin-top: 2px;
+}
+
+.filter-toggle:hover {
+  background: #dbeafe;
+  border-color: #93c5fd;
+}
+
+.filter-details-body {
+  margin-top: 12px;
+}
+
+.filter-group {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.filter-group label:first-child {
+  display: block;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 8px;
 }
 
 #player-count {
@@ -91,7 +169,7 @@ body {
 .btn-start {
   display: block;
   width: 100%;
-  padding: 14px;
+  padding: 16px;
   font-size: 1.1rem;
   font-weight: 700;
   color: #fff;
@@ -99,11 +177,13 @@ body {
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  transition: background 0.15s;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.3);
 }
 
-.btn-start:hover { background: #1d4ed8; }
-.btn-start:disabled { background: #aaa; cursor: not-allowed; }
+.btn-start:hover { background: #1d4ed8; box-shadow: 0 4px 12px rgba(37,99,235,0.4); }
+.btn-start:active { transform: scale(0.98); }
+.btn-start:disabled { background: #cbd5e1; cursor: not-allowed; box-shadow: none; }
 
 /* 問題画面 */
 #quiz { display: none; }
@@ -413,64 +493,16 @@ body {
 
   <!-- ホーム画面 -->
   <div id="home" style="display:none">
-    <h1 class="title">プロ野球 経歴クイズ</h1>
+    <h1 class="title">プロ野球 <span class="title-accent">経歴</span>クイズ</h1>
     <p class="subtitle">経歴からプロ野球選手を当てよう</p>
 
     <div class="filter-section">
-      <label>ステータス</label>
-      <div class="radio-group" id="status-filter">
-        <input type="radio" name="status" id="s-all" value="all" checked>
-        <label for="s-all">全員</label>
-        <input type="radio" name="status" id="s-active" value="active">
-        <label for="s-active">現役のみ</label>
-        <input type="radio" name="status" id="s-retired" value="retired">
-        <label for="s-retired">引退のみ</label>
-      </div>
-    </div>
-
-    <div class="filter-section">
-      <label>デビュー年代</label>
-      <div class="radio-group" id="decade-filter">
-        <input type="radio" name="decade" id="d-all" value="all" checked>
-        <label for="d-all">全年代</label>
-        <input type="radio" name="decade" id="d-2000" value="2000">
-        <label for="d-2000">2000年代</label>
-        <input type="radio" name="decade" id="d-2010" value="2010">
-        <label for="d-2010">2010年代</label>
-        <input type="radio" name="decade" id="d-2020" value="2020">
-        <label for="d-2020">2020年代</label>
-      </div>
-    </div>
-
-    <div class="filter-section">
-      <label>球団</label>
-      <div class="radio-group" id="team-filter">
-        <input type="radio" name="team" id="t-all" value="all" checked>
-        <label for="t-all">全球団</label>
-        <input type="radio" name="team" id="t-giants" value="読売ジャイアンツ">
-        <label for="t-giants">巨人</label>
-        <input type="radio" name="team" id="t-tigers" value="阪神タイガース">
-        <label for="t-tigers">阪神</label>
-        <input type="radio" name="team" id="t-carp" value="広島東洋カープ">
-        <label for="t-carp">広島</label>
-        <input type="radio" name="team" id="t-dragons" value="中日ドラゴンズ">
-        <label for="t-dragons">中日</label>
-        <input type="radio" name="team" id="t-baystars" value="横浜DeNAベイスターズ">
-        <label for="t-baystars">DeNA</label>
-        <input type="radio" name="team" id="t-swallows" value="東京ヤクルトスワローズ">
-        <label for="t-swallows">ヤクルト</label>
-        <input type="radio" name="team" id="t-hawks" value="福岡ソフトバンクホークス">
-        <label for="t-hawks">ソフトバンク</label>
-        <input type="radio" name="team" id="t-lions" value="埼玉西武ライオンズ">
-        <label for="t-lions">西武</label>
-        <input type="radio" name="team" id="t-eagles" value="東北楽天ゴールデンイーグルス">
-        <label for="t-eagles">楽天</label>
-        <input type="radio" name="team" id="t-marines" value="千葉ロッテマリーンズ">
-        <label for="t-marines">ロッテ</label>
-        <input type="radio" name="team" id="t-fighters" value="北海道日本ハムファイターズ">
-        <label for="t-fighters">日本ハム</label>
-        <input type="radio" name="team" id="t-buffaloes" value="オリックス・バファローズ">
-        <label for="t-buffaloes">オリックス</label>
+      <label>難易度</label>
+      <div class="radio-group" id="difficulty-filter">
+        <input type="radio" name="difficulty" id="diff-easy" value="easy">
+        <label for="diff-easy">かんたん</label>
+        <input type="radio" name="difficulty" id="diff-all" value="all" checked>
+        <label for="diff-all">すべて</label>
       </div>
     </div>
 
@@ -485,6 +517,67 @@ body {
         <label for="c-all">全問</label>
       </div>
     </div>
+
+    <details class="filter-details" id="advanced-filters">
+      <summary class="filter-toggle">問題を絞る</summary>
+      <div class="filter-details-body">
+        <div class="filter-group">
+          <label>ステータス</label>
+          <div class="radio-group" id="status-filter">
+            <input type="radio" name="status" id="s-all" value="all" checked>
+            <label for="s-all">全員</label>
+            <input type="radio" name="status" id="s-active" value="active">
+            <label for="s-active">現役のみ</label>
+            <input type="radio" name="status" id="s-retired" value="retired">
+            <label for="s-retired">引退のみ</label>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label>デビュー年代</label>
+          <div class="radio-group" id="decade-filter">
+            <input type="radio" name="decade" id="d-all" value="all" checked>
+            <label for="d-all">全年代</label>
+            <input type="radio" name="decade" id="d-2000" value="2000">
+            <label for="d-2000">2000年代</label>
+            <input type="radio" name="decade" id="d-2010" value="2010">
+            <label for="d-2010">2010年代</label>
+            <input type="radio" name="decade" id="d-2020" value="2020">
+            <label for="d-2020">2020年代</label>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label>球団</label>
+          <div class="radio-group" id="team-filter">
+            <input type="radio" name="team" id="t-all" value="all" checked>
+            <label for="t-all">全球団</label>
+            <input type="radio" name="team" id="t-giants" value="読売ジャイアンツ">
+            <label for="t-giants">巨人</label>
+            <input type="radio" name="team" id="t-tigers" value="阪神タイガース">
+            <label for="t-tigers">阪神</label>
+            <input type="radio" name="team" id="t-carp" value="広島東洋カープ">
+            <label for="t-carp">広島</label>
+            <input type="radio" name="team" id="t-dragons" value="中日ドラゴンズ">
+            <label for="t-dragons">中日</label>
+            <input type="radio" name="team" id="t-baystars" value="横浜DeNAベイスターズ">
+            <label for="t-baystars">DeNA</label>
+            <input type="radio" name="team" id="t-swallows" value="東京ヤクルトスワローズ">
+            <label for="t-swallows">ヤクルト</label>
+            <input type="radio" name="team" id="t-hawks" value="福岡ソフトバンクホークス">
+            <label for="t-hawks">ソフトバンク</label>
+            <input type="radio" name="team" id="t-lions" value="埼玉西武ライオンズ">
+            <label for="t-lions">西武</label>
+            <input type="radio" name="team" id="t-eagles" value="東北楽天ゴールデンイーグルス">
+            <label for="t-eagles">楽天</label>
+            <input type="radio" name="team" id="t-marines" value="千葉ロッテマリーンズ">
+            <label for="t-marines">ロッテ</label>
+            <input type="radio" name="team" id="t-fighters" value="北海道日本ハムファイターズ">
+            <label for="t-fighters">日本ハム</label>
+            <input type="radio" name="team" id="t-buffaloes" value="オリックス・バファローズ">
+            <label for="t-buffaloes">オリックス</label>
+          </div>
+        </div>
+      </div>
+    </details>
 
     <p id="player-count"></p>
     <button class="btn-start" id="btn-start">スタート</button>
@@ -574,10 +667,12 @@ body {
 
   // Filter logic
   function getFilteredPlayers() {
+    const difficulty = document.querySelector('input[name="difficulty"]:checked').value;
     const status = document.querySelector('input[name="status"]:checked').value;
     const decade = document.querySelector('input[name="decade"]:checked').value;
     const team = document.querySelector('input[name="team"]:checked').value;
     return allPlayers.filter(p => {
+      if (difficulty === 'easy' && !p.famous) return false;
       if (status !== 'all' && p.status !== status) return false;
       if (decade !== 'all') {
         const d = parseInt(decade);
@@ -598,7 +693,7 @@ body {
   }
 
   // Listen to filter changes
-  document.querySelectorAll('input[name="status"], input[name="decade"], input[name="team"], input[name="count"]').forEach(el => {
+  document.querySelectorAll('input[name="difficulty"], input[name="status"], input[name="decade"], input[name="team"], input[name="count"]').forEach(el => {
     el.addEventListener('change', updateCount);
   });
 
