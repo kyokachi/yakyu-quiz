@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from datetime import date
 
 import requests
@@ -196,6 +197,8 @@ def clean_text(text):
     text = re.sub(r"&#x([0-9a-fA-F]+);", lambda m: chr(int(m.group(1), 16)), text)
     # {{Flagicon|...}} を除去
     text = re.sub(r"\{\{Flagicon\|[^}]*\}\}", "", text)
+    # CJK互換漢字等をNFKC正規化（JIS2004フォントテンプレート由来）
+    text = unicodedata.normalize("NFKC", text)
     return text.strip()
 
 
@@ -221,9 +224,9 @@ def parse_career(infobox):
     if not career_text:
         return None
 
-    high_school = None
-    university = None
-    amateur = None
+    high_schools = []
+    universities = []
+    amateurs = []
     pro_teams = []
 
     # 箇条書きの各行を処理
@@ -273,18 +276,24 @@ def parse_career(infobox):
                 pro_teams.append({"team": team_name, "years": years_str})
         else:
             # 年度括弧がない → アマチュア経歴
-            if "高等学校" in display or "高校" in display:
-                high_school = display
+            if "高等学校" in display or "高校" in display or "高等部" in display:
+                if display not in high_schools:
+                    high_schools.append(display)
             elif "大学" in display or "大學" in display:
-                university = display
+                if display not in universities:
+                    universities.append(display)
             elif display:
+                # 「軟式」を含む経歴は引退後の草野球なので除外
+                if "軟式" in display:
+                    continue
                 # 社会人/独立リーグなど
-                amateur = display
+                if display not in amateurs:
+                    amateurs.append(display)
 
     return {
-        "highSchool": high_school,
-        "university": university,
-        "amateur": amateur,
+        "highSchool": high_schools or None,
+        "university": universities or None,
+        "amateur": amateurs or None,
         "proTeams": pro_teams,
     }
 

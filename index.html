@@ -256,21 +256,64 @@ body {
 
 .answer-name.show { opacity: 1; }
 
-.btn-next {
+.judgment-buttons {
   display: none;
-  margin: 0 auto;
-  padding: 12px 40px;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.btn-knew {
+  padding: 12px 32px;
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
-  background: #2563eb;
+  background: #22c55e;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: background 0.15s;
 }
 
-.btn-next:hover { background: #1d4ed8; }
+.btn-knew:hover { background: #16a34a; }
+
+.btn-didnt {
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #9ca3af;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-didnt:hover { background: #6b7280; }
+
+.score-text {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 16px 0 8px;
+}
+
+.btn-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-bottom: 24px;
+}
+
+.btn-share:hover { background: #333; }
 
 /* 終了画面 */
 #finish {
@@ -355,7 +398,7 @@ body {
   #home .title { font-size: 1.4rem; }
   .card { padding: 18px 14px; }
   .answer-name { font-size: 1.6rem; }
-  .btn-reveal, .btn-next { padding: 12px 28px; }
+  .btn-reveal, .btn-knew, .btn-didnt { padding: 12px 24px; }
 }
 </style>
 </head>
@@ -399,6 +442,50 @@ body {
       </div>
     </div>
 
+    <div class="filter-section">
+      <label>球団</label>
+      <div class="radio-group" id="team-filter">
+        <input type="radio" name="team" id="t-all" value="all" checked>
+        <label for="t-all">全球団</label>
+        <input type="radio" name="team" id="t-giants" value="読売ジャイアンツ">
+        <label for="t-giants">巨人</label>
+        <input type="radio" name="team" id="t-tigers" value="阪神タイガース">
+        <label for="t-tigers">阪神</label>
+        <input type="radio" name="team" id="t-carp" value="広島東洋カープ">
+        <label for="t-carp">広島</label>
+        <input type="radio" name="team" id="t-dragons" value="中日ドラゴンズ">
+        <label for="t-dragons">中日</label>
+        <input type="radio" name="team" id="t-baystars" value="横浜DeNAベイスターズ">
+        <label for="t-baystars">DeNA</label>
+        <input type="radio" name="team" id="t-swallows" value="東京ヤクルトスワローズ">
+        <label for="t-swallows">ヤクルト</label>
+        <input type="radio" name="team" id="t-hawks" value="福岡ソフトバンクホークス">
+        <label for="t-hawks">ソフトバンク</label>
+        <input type="radio" name="team" id="t-lions" value="埼玉西武ライオンズ">
+        <label for="t-lions">西武</label>
+        <input type="radio" name="team" id="t-eagles" value="東北楽天ゴールデンイーグルス">
+        <label for="t-eagles">楽天</label>
+        <input type="radio" name="team" id="t-marines" value="千葉ロッテマリーンズ">
+        <label for="t-marines">ロッテ</label>
+        <input type="radio" name="team" id="t-fighters" value="北海道日本ハムファイターズ">
+        <label for="t-fighters">日本ハム</label>
+        <input type="radio" name="team" id="t-buffaloes" value="オリックス・バファローズ">
+        <label for="t-buffaloes">オリックス</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <label>出題数</label>
+      <div class="radio-group" id="count-filter">
+        <input type="radio" name="count" id="c-10" value="10" checked>
+        <label for="c-10">10問</label>
+        <input type="radio" name="count" id="c-30" value="30">
+        <label for="c-30">30問</label>
+        <input type="radio" name="count" id="c-all" value="all">
+        <label for="c-all">全問</label>
+      </div>
+    </div>
+
     <p id="player-count"></p>
     <button class="btn-start" id="btn-start">スタート</button>
   </div>
@@ -425,7 +512,10 @@ body {
     <div class="answer-area">
       <button class="btn-reveal" id="btn-reveal">答えを見る</button>
       <div class="answer-name" id="answer-name"></div>
-      <button class="btn-next" id="btn-next">次の問題</button>
+      <div class="judgment-buttons" id="judgment-buttons">
+        <button class="btn-knew" id="btn-knew">知ってた</button>
+        <button class="btn-didnt" id="btn-didnt">知らなかった</button>
+      </div>
     </div>
   </div>
 
@@ -433,7 +523,9 @@ body {
   <div id="finish">
     <div class="finish-icon">🎉</div>
     <h2>お疲れ様でした！</h2>
+    <p class="score-text" id="score-text"></p>
     <p class="finish-stats" id="finish-stats"></p>
+    <button class="btn-share" id="btn-share">𝕏 結果をXでシェア</button>
     <div class="ad-container">
       <ins class="adsbygoogle"
            style="display:block"
@@ -455,6 +547,8 @@ body {
   let quizPlayers = [];
   let currentIndex = 0;
   let revealed = false;
+  let correctCount = 0;
+  let quizLimit = 10;
 
   const $ = id => document.getElementById(id);
 
@@ -482,24 +576,29 @@ body {
   function getFilteredPlayers() {
     const status = document.querySelector('input[name="status"]:checked').value;
     const decade = document.querySelector('input[name="decade"]:checked').value;
+    const team = document.querySelector('input[name="team"]:checked').value;
     return allPlayers.filter(p => {
       if (status !== 'all' && p.status !== status) return false;
       if (decade !== 'all') {
         const d = parseInt(decade);
         if (p.debutYear < d || p.debutYear >= d + 10) return false;
       }
+      if (team !== 'all' && (!p.teams || !p.teams.includes(team))) return false;
       return true;
     });
   }
 
   function updateCount() {
     const filtered = getFilteredPlayers();
-    $('player-count').textContent = `対象: ${filtered.length} 人`;
+    const countVal = document.querySelector('input[name="count"]:checked').value;
+    const limit = countVal === 'all' ? filtered.length : Math.min(parseInt(countVal), filtered.length);
+    const label = filtered.length === 0 ? '対象: 0 人' : `対象: ${filtered.length} 人（${limit}問 出題）`;
+    $('player-count').textContent = label;
     $('btn-start').disabled = filtered.length === 0;
   }
 
   // Listen to filter changes
-  document.querySelectorAll('input[name="status"], input[name="decade"]').forEach(el => {
+  document.querySelectorAll('input[name="status"], input[name="decade"], input[name="team"], input[name="count"]').forEach(el => {
     el.addEventListener('change', updateCount);
   });
 
@@ -515,9 +614,13 @@ body {
 
   // Start quiz
   $('btn-start').addEventListener('click', () => {
-    quizPlayers = shuffle(getFilteredPlayers());
-    if (quizPlayers.length === 0) return;
+    const filtered = getFilteredPlayers();
+    if (filtered.length === 0) return;
+    const countVal = document.querySelector('input[name="count"]:checked').value;
+    quizLimit = countVal === 'all' ? filtered.length : Math.min(parseInt(countVal), filtered.length);
+    quizPlayers = shuffle(filtered).slice(0, quizLimit);
     currentIndex = 0;
+    correctCount = 0;
     showScreen('quiz');
     renderQuestion();
   });
@@ -567,12 +670,13 @@ body {
 
     careerItems.forEach(item => {
       if (!item.value) return;
+      const vals = Array.isArray(item.value) ? item.value : [item.value];
       const li = document.createElement('li');
       li.className = 'career-item';
       li.innerHTML = `
         <span class="career-icon">${item.icon}</span>
         <span class="career-label">${item.label}</span>
-        <span class="career-value">${esc(item.value)}</span>
+        <span class="career-value">${vals.map(v => esc(v)).join(' → ')}</span>
       `;
       list.appendChild(li);
     });
@@ -598,7 +702,7 @@ body {
     $('btn-reveal').style.display = 'inline-block';
     $('answer-name').textContent = '';
     $('answer-name').classList.remove('show');
-    $('btn-next').style.display = 'none';
+    $('judgment-buttons').style.display = 'none';
   }
 
   function esc(s) {
@@ -617,19 +721,32 @@ body {
     requestAnimationFrame(() => {
       $('answer-name').classList.add('show');
     });
-    $('btn-next').style.display = 'inline-block';
+    $('judgment-buttons').style.display = 'flex';
   });
 
-  // Next question
-  $('btn-next').addEventListener('click', () => {
+  // Advance to next question or finish
+  function advanceQuiz() {
     currentIndex++;
     if (currentIndex >= quizPlayers.length) {
+      const total = quizPlayers.length;
+      $('score-text').textContent = `${total}問中 ${correctCount}問 正解！`;
+      $('finish-stats').textContent = `全 ${total} 問を完了しました`;
       showScreen('finish');
-      $('finish-stats').textContent = `全 ${quizPlayers.length} 問を完了しました`;
     } else {
       renderQuestion();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+  }
+
+  // Knew it
+  $('btn-knew').addEventListener('click', () => {
+    correctCount++;
+    advanceQuiz();
+  });
+
+  // Didn't know
+  $('btn-didnt').addEventListener('click', () => {
+    advanceQuiz();
   });
 
   // Back to home
@@ -639,6 +756,7 @@ body {
   $('btn-retry').addEventListener('click', () => {
     quizPlayers = shuffle(quizPlayers);
     currentIndex = 0;
+    correctCount = 0;
     showScreen('quiz');
     renderQuestion();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -647,6 +765,14 @@ body {
   $('btn-home-finish').addEventListener('click', () => {
     showScreen('home');
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Share on X
+  $('btn-share').addEventListener('click', () => {
+    const total = quizPlayers.length;
+    const pageURL = location.href;
+    const text = `プロ野球 経歴クイズで${total}問中${correctCount}問正解しました！\n${pageURL}`;
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text), '_blank');
   });
 })();
 </script>
