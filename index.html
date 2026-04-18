@@ -913,9 +913,7 @@ body {
 
   // Share on LINE
   $('btn-share-line').addEventListener('click', () => {
-    const url = encodeURIComponent(location.href);
-    const text = encodeURIComponent(getShareText());
-    window.open(`https://social-plugins.line.me/lineit/share?url=${url}&text=${text}`, '_blank');
+    window.open('https://line.me/R/share?text=' + encodeURIComponent(getShareText()), '_blank');
   });
 })();
 </script>
