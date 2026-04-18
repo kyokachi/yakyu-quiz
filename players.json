@@ -8207,25 +8207,6 @@
       ]
     },
     {
-      "name": "ブライアン・マタ",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "読売ジャイアンツ",
-            "years": "2026-"
-          }
-        ]
-      },
-      "status": "active",
-      "debutYear": 2026,
-      "teams": [
-        "読売ジャイアンツ"
-      ]
-    },
-    {
       "name": "又木鉄平",
       "career": {
         "highSchool": [
@@ -27961,25 +27942,6 @@
       ]
     },
     {
-      "name": "フェリックス・カラスコ",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "中日ドラゴンズ",
-            "years": "2011"
-          }
-        ]
-      },
-      "status": "retired",
-      "debutYear": 2011,
-      "teams": [
-        "中日ドラゴンズ"
-      ]
-    },
-    {
       "name": "オルランド・カリステ",
       "career": {
         "highSchool": [
@@ -33579,25 +33541,6 @@
         "中日ドラゴンズ"
       ],
       "normal": true
-    },
-    {
-      "name": "ルーク・ワカマツ",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "中日ドラゴンズ",
-            "years": "2021-2022"
-          }
-        ]
-      },
-      "status": "retired",
-      "debutYear": 2021,
-      "teams": [
-        "中日ドラゴンズ"
-      ]
     },
     {
       "name": "涌井秀章",
@@ -43897,25 +43840,6 @@
       ]
     },
     {
-      "name": "ケリン・ホセ",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "東京ヤクルトスワローズ",
-            "years": "2021"
-          }
-        ]
-      },
-      "status": "retired",
-      "debutYear": 2021,
-      "teams": [
-        "東京ヤクルトスワローズ"
-      ]
-    },
-    {
       "name": "A.J.コール",
       "career": {
         "highSchool": null,
@@ -46827,25 +46751,6 @@
       },
       "status": "retired",
       "debutYear": 2000,
-      "teams": [
-        "東京ヤクルトスワローズ"
-      ]
-    },
-    {
-      "name": "ビリー・マーチン",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "ヤクルトスワローズ",
-            "years": "2004"
-          }
-        ]
-      },
-      "status": "retired",
-      "debutYear": 2004,
       "teams": [
         "東京ヤクルトスワローズ"
       ]
@@ -51381,25 +51286,6 @@
       ]
     },
     {
-      "name": "カーター・スチュワート・ジュニア",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "福岡ソフトバンクホークス",
-            "years": "2019-"
-          }
-        ]
-      },
-      "status": "active",
-      "debutYear": 2019,
-      "teams": [
-        "福岡ソフトバンクホークス"
-      ]
-    },
-    {
       "name": "フリオ・ズレータ",
       "career": {
         "highSchool": null,
@@ -51981,25 +51867,6 @@
       ],
       "famous": true,
       "normal": true
-    },
-    {
-      "name": "ファン・デ・レオン",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "福岡ソフトバンクホークス",
-            "years": "2011"
-          }
-        ]
-      },
-      "status": "retired",
-      "debutYear": 2011,
-      "teams": [
-        "福岡ソフトバンクホークス"
-      ]
     },
     {
       "name": "テリー・ドイル",
@@ -60445,25 +60312,6 @@
       ]
     },
     {
-      "name": "エマニュエル・ラミレス",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "埼玉西武ライオンズ",
-            "years": "2025-"
-          }
-        ]
-      },
-      "status": "active",
-      "debutYear": 2025,
-      "teams": [
-        "埼玉西武ライオンズ"
-      ]
-    },
-    {
       "name": "コーディ・ランサム",
       "career": {
         "highSchool": null,
@@ -67513,14 +67361,6 @@
       ]
     },
     {
-      "name": "荻野貴司",
-      "career": null,
-      "status": "active",
-      "debutYear": 2010,
-      "teams": [],
-      "famous": true
-    },
-    {
       "name": "荻野忠寛",
       "career": {
         "highSchool": [
@@ -72608,25 +72448,6 @@
       },
       "status": "active",
       "debutYear": 2021,
-      "teams": [
-        "北海道日本ハムファイターズ"
-      ]
-    },
-    {
-      "name": "ライアン・ウィング",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "北海道日本ハムファイターズ",
-            "years": "2009"
-          }
-        ]
-      },
-      "status": "retired",
-      "debutYear": 2009,
       "teams": [
         "北海道日本ハムファイターズ"
       ]
@@ -78894,13 +78715,6 @@
       ]
     },
     {
-      "name": "ボブ・シーモア",
-      "career": null,
-      "status": "active",
-      "debutYear": 2022,
-      "teams": []
-    },
-    {
       "name": "ショーン・ジェリー",
       "career": {
         "highSchool": null,
@@ -80693,25 +80507,6 @@
       },
       "status": "active",
       "debutYear": 2025,
-      "teams": [
-        "オリックス・バファローズ"
-      ]
-    },
-    {
-      "name": "タイラー・ヒギンス",
-      "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": null,
-        "proTeams": [
-          {
-            "team": "オリックス・バファローズ",
-            "years": "2020-2021"
-          }
-        ]
-      },
-      "status": "retired",
-      "debutYear": 2020,
       "teams": [
         "オリックス・バファローズ"
       ]
