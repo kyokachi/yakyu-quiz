@@ -4674,6 +4674,10 @@
           {
             "team": "読売ジャイアンツ",
             "years": "2012-2016"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2017-2023"
           }
         ]
       },
@@ -4681,7 +4685,8 @@
       "debutYear": 2012,
       "teams": [
         "読売ジャイアンツ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "高木勇人",
@@ -15442,11 +15447,9 @@
       "name": "西岡剛",
       "career": {
         "highSchool": [
-          "近畿大学附属高等学校"
+          "大阪桐蔭高等学校"
         ],
-        "university": [
-          "近畿大学"
-        ],
+        "university": null,
         "amateur": null,
         "proTeams": [
           {
