@@ -411,6 +411,9 @@ body {
 
 .btn-share:hover { background: #333; }
 
+.btn-share-line { background: #06C755; }
+.btn-share-line:hover { background: #05a648; }
+
 /* 終了画面 */
 #finish {
   display: none;
@@ -517,8 +520,10 @@ body {
       <div class="radio-group" id="difficulty-filter">
         <input type="radio" name="difficulty" id="diff-easy" value="easy">
         <label for="diff-easy">かんたん</label>
+        <input type="radio" name="difficulty" id="diff-normal" value="normal">
+        <label for="diff-normal">ふつう</label>
         <input type="radio" name="difficulty" id="diff-all" value="all" checked>
-        <label for="diff-all">すべて</label>
+        <label for="diff-all">げきむず</label>
       </div>
     </div>
 
@@ -634,7 +639,10 @@ body {
     <h2>お疲れ様でした！</h2>
     <p class="score-text" id="score-text"></p>
     <p class="finish-stats" id="finish-stats"></p>
-    <button class="btn-share" id="btn-share">𝕏 結果をXでシェア</button>
+    <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;">
+      <button class="btn-share" id="btn-share">𝕏 Xでシェア</button>
+      <button class="btn-share btn-share-line" id="btn-share-line">LINE でシェア</button>
+    </div>
     <div class="ad-container">
       <ins class="adsbygoogle"
            style="display:block"
@@ -658,6 +666,8 @@ body {
   let revealed = false;
   let correctCount = 0;
   let quizLimit = 10;
+  let quizDifficulty = '';
+  let quizTeam = '';
 
   const $ = id => document.getElementById(id);
 
@@ -689,6 +699,7 @@ body {
     const team = document.querySelector('input[name="team"]:checked').value;
     return allPlayers.filter(p => {
       if (difficulty === 'easy' && !p.famous) return false;
+      if (difficulty === 'normal' && !p.famous && !p.normal) return false;
       if (status !== 'all' && p.status !== status) return false;
       if (decade !== 'all') {
         const d = parseInt(decade);
@@ -732,6 +743,8 @@ body {
     quizPlayers = shuffle(filtered).slice(0, quizLimit);
     currentIndex = 0;
     correctCount = 0;
+    quizDifficulty = document.querySelector('input[name="difficulty"]:checked').value;
+    quizTeam = document.querySelector('input[name="team"]:checked').value;
     showScreen('quiz');
     renderQuestion();
   });
@@ -878,12 +891,31 @@ body {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  // Share on X
-  $('btn-share').addEventListener('click', () => {
+  // Share text
+  function getShareText() {
     const total = quizPlayers.length;
     const pageURL = location.href;
-    const text = `プロ野球 経歴クイズで${total}問中${correctCount}問正解しました！\n${pageURL}`;
-    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text), '_blank');
+    const diffLabels = { easy: 'かんたん', normal: 'ふつう', all: 'げきむず' };
+    const diffLabel = diffLabels[quizDifficulty] || '';
+    let conditions = `【${diffLabel}】`;
+    if (quizTeam !== 'all') {
+      const teamEl = document.querySelector(`input[name="team"][value="${quizTeam}"]`);
+      const teamLabel = teamEl ? teamEl.nextElementSibling.textContent : quizTeam;
+      conditions += `【${teamLabel}】`;
+    }
+    return `プロ野球 経歴クイズ${conditions}で${total}問中${correctCount}問正解しました！\n${pageURL}`;
+  }
+
+  // Share on X
+  $('btn-share').addEventListener('click', () => {
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(getShareText()), '_blank');
+  });
+
+  // Share on LINE
+  $('btn-share-line').addEventListener('click', () => {
+    const url = encodeURIComponent(location.href);
+    const text = encodeURIComponent(getShareText());
+    window.open(`https://social-plugins.line.me/lineit/share?url=${url}&text=${text}`, '_blank');
   });
 })();
 </script>
