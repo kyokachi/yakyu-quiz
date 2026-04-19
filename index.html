@@ -108,14 +108,11 @@ body {
   color: #fff;
 }
 
-.legend-section {
-  text-align: center;
-  padding: 0;
-  background: none;
-  box-shadow: none;
+.legend-wrapper {
+  margin-top: 10px;
 }
 
-.legend-section input[type="radio"] { display: none; }
+.legend-wrapper input[type="radio"] { display: none; }
 
 .legend-btn {
   display: block;
@@ -138,7 +135,7 @@ body {
   color: #7a5d0a;
 }
 
-.legend-section input[type="radio"]:checked + .legend-btn {
+.legend-wrapper input[type="radio"]:checked + .legend-btn {
   border-color: #b8860b;
   background: linear-gradient(135deg, #d4a017, #b8860b);
   color: #fff;
@@ -561,11 +558,10 @@ body {
         <input type="radio" name="difficulty" id="diff-all" value="all" checked>
         <label for="diff-all">げきむず</label>
       </div>
-    </div>
-
-    <div class="filter-section legend-section">
-      <input type="radio" name="difficulty" id="diff-legend" value="legend">
-      <label for="diff-legend" class="legend-btn">時代を超えた名選手に挑戦</label>
+      <div class="legend-wrapper">
+        <input type="radio" name="difficulty" id="diff-legend" value="legend">
+        <label for="diff-legend" class="legend-btn">時代を超えた名選手に挑戦</label>
+      </div>
     </div>
 
     <div class="filter-section">
