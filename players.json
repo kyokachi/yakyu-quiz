@@ -1161,7 +1161,7 @@
           "東洋大学"
         ],
         "amateur": [
-          "NTT東日本<!-- (2005・2006)-->"
+          "NTT東日本"
         ],
         "proTeams": [
           {
@@ -9919,11 +9919,11 @@
     {
       "name": "林羿豪",
       "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": [
+        "highSchool": [
           "台中市立西苑高級中学"
         ],
+        "university": null,
+        "amateur": null,
         "proTeams": [
           {
             "team": "読売ジャイアンツ",
@@ -14512,7 +14512,7 @@
           "創価大学"
         ],
         "amateur": [
-          "天晴--><!--草野球チームを経歴に含めてもいいかどうか-->"
+          "天晴-->"
         ],
         "proTeams": [
           {
@@ -18322,13 +18322,13 @@
     {
       "name": "呂彥青",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "高雄市立三民高級中学"
+        ],
         "university": [
           "国立台湾体育運動大学"
         ],
-        "amateur": [
-          "高雄市立三民高級中学"
-        ],
+        "amateur": null,
         "proTeams": [
           {
             "team": "阪神タイガース",
@@ -26920,7 +26920,7 @@
           "龍谷大学"
         ],
         "amateur": [
-          "JR西日本<!--活動休止が2005年4月25日以降なので、記載しましたが、もし不適当な場合は除去願います-->"
+          "JR西日本"
         ],
         "proTeams": [
           {
@@ -27993,10 +27993,11 @@
     {
       "name": "クラウディオ・ガルバ",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "パルマル・デジャケ中学"
+        ],
         "university": null,
         "amateur": [
-          "パルマル・デジャケ中学",
           "ドミニカ・アスレチックス"
         ],
         "proTeams": [
@@ -41403,13 +41404,13 @@
     {
       "name": "王溢正",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "国立屏東高級中学"
+        ],
         "university": [
           "中国文化大学"
         ],
-        "amateur": [
-          "国立屏東高級中学"
-        ],
+        "amateur": null,
         "proTeams": [
           {
             "team": "La Newベアーズ",
@@ -66878,10 +66879,11 @@
     {
       "name": "呉偲佑",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "美和中学"
+        ],
         "university": null,
         "amateur": [
-          "美和中学",
           "合作金庫"
         ],
         "proTeams": [
@@ -68148,13 +68150,13 @@
       "name": "神戸拓光",
       "career": {
         "highSchool": [
-          "土浦日本大学高等学校"
+          "土浦日本大学高等学校",
+          "牛久市立牛久第二中学校"
         ],
         "university": [
           "流通経済大学"
         ],
         "amateur": [
-          "牛久市立牛久第二中学校",
           "新波"
         ],
         "proTeams": [
@@ -71090,10 +71092,10 @@
       "name": "本前郁也",
       "career": {
         "highSchool": [
-          "札幌光星高等学校<!---->"
+          "札幌光星高等学校"
         ],
         "university": [
-          "北翔大学<!---->"
+          "北翔大学"
         ],
         "amateur": null,
         "proTeams": [
@@ -76590,7 +76592,7 @@
           "ジェイ・セラ・カトリック高等学校"
         ],
         "university": [
-          "アリゾナ州立大学<!--"
+          "アリゾナ州立大学"
         ],
         "amateur": null,
         "proTeams": [
@@ -82733,11 +82735,11 @@
     {
       "name": "王貞治",
       "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": [
-          "早稲田実業学校<!--早大系属は1963年から-->"
+        "highSchool": [
+          "早稲田実業学校"
         ],
+        "university": null,
+        "amateur": null,
         "proTeams": [
           {
             "team": "読売ジャイアンツ",
@@ -84126,22 +84128,26 @@
     {
       "name": "川上哲治",
       "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": [
-          "熊本県立工業学校"
+        "highSchool": [
+          "熊本工業学校"
         ],
+        "university": null,
+        "amateur": null,
         "proTeams": [
           {
-            "team": "東京巨人軍 読売ジャイアンツ",
+            "team": "読売ジャイアンツ",
             "years": "1938-1942"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1946-1958"
           }
         ]
       },
       "status": "retired",
       "debutYear": 1938,
       "teams": [
-        "東京巨人軍 読売ジャイアンツ"
+        "読売ジャイアンツ"
       ],
       "legend": true
     },
@@ -85318,12 +85324,13 @@
     {
       "name": "杉下茂",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "旧制帝京商業学校"
+        ],
         "university": [
           "明治大学旧制専門部"
         ],
         "amateur": [
-          "旧制帝京商業学校",
           "いすゞ自動車"
         ],
         "proTeams": [
@@ -85689,22 +85696,26 @@
     {
       "name": "中尾碩志",
       "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": [
+        "highSchool": [
           "京都商業学校"
         ],
+        "university": null,
+        "amateur": null,
         "proTeams": [
           {
-            "team": "東京巨人軍 読売ジャイアンツ",
+            "team": "読売ジャイアンツ",
             "years": "1939-1942"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1946-1957"
           }
         ]
       },
       "status": "retired",
       "debutYear": 1939,
       "teams": [
-        "東京巨人軍 読売ジャイアンツ"
+        "読売ジャイアンツ"
       ],
       "legend": true
     },
@@ -85900,13 +85911,13 @@
     {
       "name": "野口二郎",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "中京商業学校"
+        ],
         "university": [
           "法政大学中退"
         ],
-        "amateur": [
-          "中京商業学校"
-        ],
+        "amateur": null,
         "proTeams": [
           {
             "team": "東京セネタース 翼軍",
@@ -85934,12 +85945,13 @@
     {
       "name": "若林忠志",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "旧制本牧中学校"
+        ],
         "university": [
           "旧制法政大学"
         ],
         "amateur": [
-          "旧制本牧中学校",
           "コロムビア"
         ],
         "proTeams": [
@@ -85964,13 +85976,13 @@
     {
       "name": "藤本英雄",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "旧制下関商業学校"
+        ],
         "university": [
           "旧制明治大学"
         ],
-        "amateur": [
-          "旧制下関商業学校"
-        ],
+        "amateur": null,
         "proTeams": [
           {
             "team": "東京巨人軍",
@@ -86030,11 +86042,12 @@
     {
       "name": "川崎徳次",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "旧制龍谷中学校",
+          "久留米商業学校"
+        ],
         "university": null,
         "amateur": [
-          "旧制龍谷中学校",
-          "久留米商業学校",
           "撫順炭鉱"
         ],
         "proTeams": [
@@ -86088,15 +86101,22 @@
     {
       "name": "真田重蔵",
       "career": {
-        "highSchool": null,
-        "university": null,
-        "amateur": [
-          "旧制和歌山県立海草中学校",
-          "朝日軍 パシフィック 太陽ロビンス 大陽ロビンス 松竹ロビンス (1943, 1946 - 1951)"
+        "highSchool": [
+          "海南中学校"
         ],
+        "university": null,
+        "amateur": null,
         "proTeams": [
           {
-            "team": "大阪タイガース",
+            "team": "南海ホークス",
+            "years": "1943"
+          },
+          {
+            "team": "南海ホークス",
+            "years": "1946-1951"
+          },
+          {
+            "team": "阪神タイガース",
             "years": "1952-1956"
           }
         ]
@@ -86104,17 +86124,19 @@
       "status": "retired",
       "debutYear": 1943,
       "teams": [
-        "大阪タイガース"
+        "南海ホークス",
+        "阪神タイガース"
       ],
       "legend": true
     },
     {
       "name": "荒巻淳",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "旧制大分県立大分商業学校"
+        ],
         "university": null,
         "amateur": [
-          "旧制大分県立大分商業学校",
           "旧制大分経済専門学校",
           "星野組"
         ],
@@ -86333,10 +86355,11 @@
     {
       "name": "藤村隆男",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "旧制呉港中学校"
+        ],
         "university": null,
         "amateur": [
-          "旧制呉港中学校",
           "植良組"
         ],
         "proTeams": [
