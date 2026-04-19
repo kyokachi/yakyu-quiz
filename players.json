@@ -347,7 +347,8 @@
         "読売ジャイアンツ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "荒巻悠",
@@ -1357,7 +1358,8 @@
         "埼玉西武ライオンズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "梅田浩",
@@ -3821,7 +3823,8 @@
         "読売ジャイアンツ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "桜井俊貴",
@@ -4319,7 +4322,8 @@
         "読売ジャイアンツ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "杉内俊哉",
@@ -4348,7 +4352,8 @@
         "福岡ソフトバンクホークス",
         "読売ジャイアンツ"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "鈴木康平",
@@ -5389,7 +5394,8 @@
         "読売ジャイアンツ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "谷浩弥",
@@ -6272,7 +6278,8 @@
         "中日ドラゴンズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "長田昌浩",
@@ -6543,7 +6550,8 @@
         "東北楽天ゴールデンイーグルス",
         "読売ジャイアンツ"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "ヘラルド・パーラ",
@@ -8369,7 +8377,8 @@
         "読売ジャイアンツ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "松原聖弥",
@@ -8911,7 +8920,8 @@
         "読売ジャイアンツ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "村田透",
@@ -15641,7 +15651,8 @@
         "阪神タイガース",
         "オリックス・バファローズ"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "野口恭佑",
@@ -27179,7 +27190,8 @@
         "中日ドラゴンズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "大野奨太",
@@ -33578,7 +33590,8 @@
         "中日ドラゴンズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "渡辺勝",
@@ -34625,7 +34638,8 @@
         "東京ヤクルトスワローズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "内村賢介",
@@ -40794,7 +40808,8 @@
       "teams": [
         "横浜DeNAベイスターズ"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "山下幸輝",
@@ -41750,7 +41765,8 @@
       "teams": [
         "東京ヤクルトスワローズ"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "石原勇輝",
@@ -47797,7 +47813,8 @@
         "東京ヤクルトスワローズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "山田大樹",
@@ -54362,7 +54379,8 @@
         "福岡ソフトバンクホークス"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "渡邉陸",
@@ -54572,7 +54590,8 @@
         "東北楽天ゴールデンイーグルス"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "阿部真宏",
@@ -55786,7 +55805,8 @@
         "東北楽天ゴールデンイーグルス"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "クリス・ギッセル",
@@ -58058,7 +58078,8 @@
         "埼玉西武ライオンズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "中山誠吾",
@@ -65289,7 +65310,8 @@
       "teams": [
         "東北楽天ゴールデンイーグルス"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "カーソン・マッカスカー",
@@ -70648,7 +70670,8 @@
       "teams": [
         "千葉ロッテマリーンズ"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "松川虎生",
@@ -73048,7 +73071,8 @@
         "北海道日本ハムファイターズ"
       ],
       "famous": true,
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "金子洋平",
@@ -80653,7 +80677,8 @@
       "teams": [
         "オリックス・バファローズ"
       ],
-      "normal": true
+      "normal": true,
+      "legend": true
     },
     {
       "name": "廣澤伸哉",
@@ -82704,6 +82729,4066 @@
       "teams": [
         "オリックス・バファローズ"
       ]
+    },
+    {
+      "name": "王貞治",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "早稲田実業学校<!--早大系属は1963年から-->"
+        ],
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1959-1980"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1959,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "野村克也",
+      "career": {
+        "highSchool": [
+          "京都府立峰山高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "南海ホークス",
+            "years": "1954-1977"
+          },
+          {
+            "team": "ロッテオリオンズ",
+            "years": "1978"
+          },
+          {
+            "team": "西武ライオンズ",
+            "years": "1979-1980"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1954,
+      "teams": [
+        "南海ホークス",
+        "ロッテオリオンズ",
+        "西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "門田博光",
+      "career": {
+        "highSchool": [
+          "天理高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "クラレ岡山"
+        ],
+        "proTeams": [
+          {
+            "team": "南海ホークス",
+            "years": "1970-1988"
+          },
+          {
+            "team": "オリックス・ブレーブス",
+            "years": "1989-1990"
+          },
+          {
+            "team": "福岡ダイエーホークス",
+            "years": "1991-1992"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1969,
+      "teams": [
+        "南海ホークス",
+        "オリックス・ブレーブス",
+        "福岡ダイエーホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "山本浩二",
+      "career": {
+        "highSchool": [
+          "広島県立廿日市高等学校"
+        ],
+        "university": [
+          "法政大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1969-1986"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "清原和博",
+      "career": {
+        "highSchool": [
+          "PL学園高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西武ライオンズ",
+            "years": "1986-1996"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1997-2005"
+          },
+          {
+            "team": "オリックス・バファローズ",
+            "years": "2006-2008"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1985,
+      "teams": [
+        "西武ライオンズ",
+        "読売ジャイアンツ",
+        "オリックス・バファローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "落合博満",
+      "career": {
+        "highSchool": [
+          "秋田県立秋田工業高等学校"
+        ],
+        "university": [
+          "東洋大学(中退)"
+        ],
+        "amateur": [
+          "東芝府中"
+        ],
+        "proTeams": [
+          {
+            "team": "ロッテオリオンズ",
+            "years": "1979-1986"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1987-1993"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1994-1996"
+          },
+          {
+            "team": "日本ハムファイターズ",
+            "years": "1997-1998"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1978,
+      "teams": [
+        "ロッテオリオンズ",
+        "中日ドラゴンズ",
+        "読売ジャイアンツ",
+        "日本ハムファイターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "張本勲",
+      "career": {
+        "highSchool": [
+          "広島県松本商業高等学校",
+          "浪華商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "東映フライヤーズ 日拓ホームフライヤーズ 日本ハムファイターズ",
+            "years": "1959-1975"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1976-1979"
+          },
+          {
+            "team": "ロッテオリオンズ",
+            "years": "1980-1981"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1959,
+      "teams": [
+        "東映フライヤーズ 日拓ホームフライヤーズ 日本ハムファイターズ",
+        "読売ジャイアンツ",
+        "ロッテオリオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "衣笠祥雄",
+      "career": {
+        "highSchool": [
+          "平安高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島カープ 広島東洋カープ",
+            "years": "1965-1987"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "広島カープ 広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "大杉勝男",
+      "career": {
+        "highSchool": [
+          "関西高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "丸井"
+        ],
+        "proTeams": [
+          {
+            "team": "東映フライヤーズ 日拓ホームフライヤーズ 日本ハムファイターズ",
+            "years": "1965-1974"
+          },
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1975-1983"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "東映フライヤーズ 日拓ホームフライヤーズ 日本ハムファイターズ",
+        "ヤクルトスワローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "金本知憲",
+      "career": {
+        "highSchool": [
+          "広陵高等学校"
+        ],
+        "university": [
+          "東北福祉大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1992-2002"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "2003-2012"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1991,
+      "teams": [
+        "広島東洋カープ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "田淵幸一",
+      "career": {
+        "highSchool": [
+          "法政大学第一高等学校"
+        ],
+        "university": [
+          "法政大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪神タイガース",
+            "years": "1969-1978"
+          },
+          {
+            "team": "西武ライオンズ",
+            "years": "1979-1984"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "阪神タイガース",
+        "西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "土井正博",
+      "career": {
+        "highSchool": [
+          "大鉄高等学校(中退)"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "近鉄バファローズ",
+            "years": "1961-1974"
+          },
+          {
+            "team": "太平洋クラブライオンズ クラウンライターライオンズ 西武ライオンズ",
+            "years": "1975-1981"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1961,
+      "teams": [
+        "近鉄バファローズ",
+        "太平洋クラブライオンズ クラウンライターライオンズ 西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "長嶋茂雄",
+      "career": {
+        "highSchool": [
+          "千葉県立佐倉第一高等学校"
+        ],
+        "university": [
+          "立教大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1958-1974"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1958,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "秋山幸二",
+      "career": {
+        "highSchool": [
+          "熊本県立八代高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西武ライオンズ",
+            "years": "1981-1993"
+          },
+          {
+            "team": "福岡ダイエーホークス",
+            "years": "1994-2002"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1980,
+      "teams": [
+        "西武ライオンズ",
+        "福岡ダイエーホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "小久保裕紀",
+      "career": {
+        "highSchool": [
+          "和歌山県立星林高等学校"
+        ],
+        "university": [
+          "青山学院大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "福岡ダイエーホークス",
+            "years": "1994-2003"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2004-2006"
+          },
+          {
+            "team": "福岡ソフトバンクホークス",
+            "years": "2007-2012"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1993,
+      "teams": [
+        "福岡ダイエーホークス",
+        "読売ジャイアンツ",
+        "福岡ソフトバンクホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "中村紀洋",
+      "career": {
+        "highSchool": [
+          "大阪府立渋谷高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "近鉄バファローズ 大阪近鉄バファローズ",
+            "years": "1992-2004"
+          },
+          {
+            "team": "オリックス・バファローズ",
+            "years": "2005"
+          },
+          {
+            "team": "ロサンゼルス・ドジャース",
+            "years": "2005"
+          },
+          {
+            "team": "オリックス・バファローズ",
+            "years": "2006"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "2007-2008"
+          },
+          {
+            "team": "東北楽天ゴールデンイーグルス",
+            "years": "2009-2010"
+          },
+          {
+            "team": "横浜ベイスターズ 横浜DeNAベイスターズ",
+            "years": "2011-2014"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1991,
+      "teams": [
+        "近鉄バファローズ 大阪近鉄バファローズ",
+        "オリックス・バファローズ",
+        "ロサンゼルス・ドジャース",
+        "中日ドラゴンズ",
+        "東北楽天ゴールデンイーグルス",
+        "横浜ベイスターズ 横浜DeNAベイスターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "山﨑武司",
+      "career": {
+        "highSchool": [
+          "愛知工業大学名電高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1987-2002"
+          },
+          {
+            "team": "オリックス・ブルーウェーブ",
+            "years": "2003-2004"
+          },
+          {
+            "team": "東北楽天ゴールデンイーグルス",
+            "years": "2005-2011"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "2012-2013"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1986,
+      "teams": [
+        "中日ドラゴンズ",
+        "オリックス・ブルーウェーブ",
+        "東北楽天ゴールデンイーグルス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "山内一弘",
+      "career": {
+        "highSchool": [
+          "愛知県立起工業高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "川島紡績"
+        ],
+        "proTeams": [
+          {
+            "team": "毎日オリオンズ 毎日大映オリオンズ",
+            "years": "1952-1963"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "1964-1967"
+          },
+          {
+            "team": "広島東洋カープ",
+            "years": "1968-1970"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1952,
+      "teams": [
+        "毎日オリオンズ 毎日大映オリオンズ",
+        "阪神タイガース",
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "大島康徳",
+      "career": {
+        "highSchool": [
+          "大分県立中津工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1969-1987"
+          },
+          {
+            "team": "日本ハムファイターズ",
+            "years": "1988-1994"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "中日ドラゴンズ",
+        "日本ハムファイターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "原辰徳",
+      "career": {
+        "highSchool": [
+          "東海大学付属相模高等学校"
+        ],
+        "university": [
+          "東海大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1981-1995"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1980,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "小笠原道大",
+      "career": {
+        "highSchool": [
+          "暁星国際高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "NTT関東"
+        ],
+        "proTeams": [
+          {
+            "team": "日本ハムファイターズ 北海道日本ハムファイターズ",
+            "years": "1997-2006"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2007-2013"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "2014-2015"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1996,
+      "teams": [
+        "日本ハムファイターズ 北海道日本ハムファイターズ",
+        "読売ジャイアンツ",
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "江藤慎一",
+      "career": {
+        "highSchool": [
+          "熊本県立熊本商業高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "日鉄二瀬"
+        ],
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1959-1969"
+          },
+          {
+            "team": "ロッテオリオンズ",
+            "years": "1970-1971"
+          },
+          {
+            "team": "大洋ホエールズ",
+            "years": "1972-1974"
+          },
+          {
+            "team": "太平洋クラブライオンズ",
+            "years": "1975"
+          },
+          {
+            "team": "ロッテオリオンズ",
+            "years": "1976"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1959,
+      "teams": [
+        "中日ドラゴンズ",
+        "ロッテオリオンズ",
+        "大洋ホエールズ",
+        "太平洋クラブライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "カブレラ",
+      "career": {
+        "highSchool": [
+          "アンドレ・ベロ高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "メキシコシティ・タイガース",
+            "years": "1997"
+          },
+          {
+            "team": "ミナティトラン・オイラーズ",
+            "years": "1997"
+          },
+          {
+            "team": "メキシコシティ・タイガース",
+            "years": "1998"
+          },
+          {
+            "team": "和信ホエールズ",
+            "years": "1999"
+          },
+          {
+            "team": "アリゾナ・ダイヤモンドバックス",
+            "years": "2000"
+          },
+          {
+            "team": "西武ライオンズ",
+            "years": "2001-2007"
+          },
+          {
+            "team": "オリックス・バファローズ",
+            "years": "2008-2010"
+          },
+          {
+            "team": "福岡ソフトバンクホークス",
+            "years": "2011-2012"
+          },
+          {
+            "team": "ベラクルス・レッドイーグルス",
+            "years": "2014"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1991,
+      "teams": [
+        "メキシコシティ・タイガース",
+        "ミナティトラン・オイラーズ",
+        "和信ホエールズ",
+        "アリゾナ・ダイヤモンドバックス",
+        "西武ライオンズ",
+        "オリックス・バファローズ",
+        "福岡ソフトバンクホークス",
+        "ベラクルス・レッドイーグルス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "松中信彦",
+      "career": {
+        "highSchool": [
+          "八代第一高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "新日本製鐵君津"
+        ],
+        "proTeams": [
+          {
+            "team": "福岡ダイエーホークス 福岡ソフトバンクホークス",
+            "years": "1997-2015"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1996,
+      "teams": [
+        "福岡ダイエーホークス 福岡ソフトバンクホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "掛布雅之",
+      "career": {
+        "highSchool": [
+          "習志野市立習志野高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪神タイガース",
+            "years": "1974-1988"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1973,
+      "teams": [
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "宇野勝",
+      "career": {
+        "highSchool": [
+          "千葉県立銚子商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1977-1992"
+          },
+          {
+            "team": "千葉ロッテマリーンズ",
+            "years": "1993-1994"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1976,
+      "teams": [
+        "中日ドラゴンズ",
+        "千葉ロッテマリーンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "松井秀喜",
+      "career": {
+        "highSchool": [
+          "星稜高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1993-2002"
+          },
+          {
+            "team": "ニューヨーク・ヤンキース",
+            "years": "2003-2009"
+          },
+          {
+            "team": "ロサンゼルス・エンゼルス",
+            "years": "2010"
+          },
+          {
+            "team": "オークランド・アスレチックス",
+            "years": "2011"
+          },
+          {
+            "team": "タンパベイ・レイズ",
+            "years": "2012"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1992,
+      "teams": [
+        "読売ジャイアンツ",
+        "ニューヨーク・ヤンキース",
+        "ロサンゼルス・エンゼルス",
+        "オークランド・アスレチックス",
+        "タンパベイ・レイズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "松原誠",
+      "career": {
+        "highSchool": [
+          "埼玉県立飯能高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "大洋ホエールズ 横浜大洋ホエールズ",
+            "years": "1962-1980"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1981"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1962,
+      "teams": [
+        "大洋ホエールズ 横浜大洋ホエールズ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "高橋由伸",
+      "career": {
+        "highSchool": [
+          "桐蔭学園高等学校"
+        ],
+        "university": [
+          "慶應義塾大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1998-2015"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1997,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "和田一浩",
+      "career": {
+        "highSchool": [
+          "岐阜県立岐阜商業高等学校"
+        ],
+        "university": [
+          "東北福祉大学"
+        ],
+        "amateur": [
+          "神戸製鋼"
+        ],
+        "proTeams": [
+          {
+            "team": "西武ライオンズ",
+            "years": "1997-2007"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "2008-2015"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1996,
+      "teams": [
+        "西武ライオンズ",
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "新井貴浩",
+      "career": {
+        "highSchool": [
+          "広島県立広島工業高等学校"
+        ],
+        "university": [
+          "駒澤大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1999-2007"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "2008-2014"
+          },
+          {
+            "team": "広島東洋カープ",
+            "years": "2015-2018"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1998,
+      "teams": [
+        "広島東洋カープ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "広澤克実",
+      "career": {
+        "highSchool": [
+          "栃木県立小山高等学校"
+        ],
+        "university": [
+          "明治大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1985-1994"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1995-1999"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "2000-2003"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1984,
+      "teams": [
+        "ヤクルトスワローズ",
+        "読売ジャイアンツ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "池山隆寛",
+      "career": {
+        "highSchool": [
+          "尼崎市立尼崎高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1984-2002"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1983,
+      "teams": [
+        "ヤクルトスワローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "前田智徳",
+      "career": {
+        "highSchool": [
+          "熊本県立熊本工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1990-2013"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1989,
+      "teams": [
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "真弓明信",
+      "career": {
+        "highSchool": [
+          "柳川商業高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "電電九州"
+        ],
+        "proTeams": [
+          {
+            "team": "太平洋クラブライオンズ クラウンライターライオンズ 西武ライオンズ",
+            "years": "1973-1978"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "1979-1995"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1972,
+      "teams": [
+        "太平洋クラブライオンズ クラウンライターライオンズ 西武ライオンズ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "ラミレス",
+      "career": {
+        "highSchool": [
+          "サンアントニオデパウラ高校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "クリーブランド・インディアンス",
+            "years": "1998-2000"
+          },
+          {
+            "team": "ピッツバーグ・パイレーツ",
+            "years": "2000"
+          },
+          {
+            "team": "ヤクルトスワローズ 東京ヤクルトスワローズ",
+            "years": "2001-2007"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2008-2011"
+          },
+          {
+            "team": "横浜DeNAベイスターズ",
+            "years": "2012-2013"
+          },
+          {
+            "team": "群馬ダイヤモンドペガサス",
+            "years": "2014"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1991,
+      "teams": [
+        "クリーブランド・インディアンス",
+        "ピッツバーグ・パイレーツ",
+        "ヤクルトスワローズ 東京ヤクルトスワローズ",
+        "読売ジャイアンツ",
+        "横浜DeNAベイスターズ",
+        "群馬ダイヤモンドペガサス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "江藤智",
+      "career": {
+        "highSchool": [
+          "関東高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1989-1999"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2000-2005"
+          },
+          {
+            "team": "西武ライオンズ 埼玉西武ライオンズ",
+            "years": "2006-2009"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1988,
+      "teams": [
+        "広島東洋カープ",
+        "読売ジャイアンツ",
+        "西武ライオンズ 埼玉西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "バレンティン",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "シアトル・マリナーズ",
+            "years": "2007-2009"
+          },
+          {
+            "team": "シンシナティ・レッズ",
+            "years": "2009"
+          },
+          {
+            "team": "東京ヤクルトスワローズ",
+            "years": "2011-2019"
+          },
+          {
+            "team": "福岡ソフトバンクホークス",
+            "years": "2020-2021"
+          },
+          {
+            "team": "サルティーヨ・サラペメーカーズ",
+            "years": "2022"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 2000,
+      "teams": [
+        "シアトル・マリナーズ",
+        "シンシナティ・レッズ",
+        "東京ヤクルトスワローズ",
+        "福岡ソフトバンクホークス",
+        "サルティーヨ・サラペメーカーズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "ローズ",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "近鉄バファローズ",
+            "years": "1996-2003"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2004"
+          },
+          {
+            "team": "オリックス・バファローズ",
+            "years": "2005-2009"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1996,
+      "teams": [
+        "近鉄バファローズ",
+        "読売ジャイアンツ",
+        "オリックス・バファローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "広澤克実",
+      "career": {
+        "highSchool": [
+          "小松島西高等学校"
+        ],
+        "university": [
+          "明治大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1985-1995"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1996-2001"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "2002-2003"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1985,
+      "teams": [
+        "ヤクルトスワローズ",
+        "読売ジャイアンツ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "長池徳士",
+      "career": {
+        "highSchool": [
+          "法政大学第二高等学校"
+        ],
+        "university": [
+          "法政大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス",
+            "years": "1966-1979"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1966,
+      "teams": [
+        "阪急ブレーブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "松原誠",
+      "career": {
+        "highSchool": [
+          "神奈川県立厚木高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "横浜DeNAベイスターズ",
+            "years": "1962-1980"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1981"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1962,
+      "teams": [
+        "横浜DeNAベイスターズ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "福本豊",
+      "career": {
+        "highSchool": [
+          "大鉄高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "松下電器"
+        ],
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス",
+            "years": "1969-1988"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "阪急ブレーブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "立浪和義",
+      "career": {
+        "highSchool": [
+          "PL学園高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1988-2009"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1987,
+      "teams": [
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "石井琢朗",
+      "career": {
+        "highSchool": [
+          "栃木県立足利工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "横浜大洋ホエールズ 横浜ベイスターズ",
+            "years": "1989-2008"
+          },
+          {
+            "team": "広島東洋カープ",
+            "years": "2009-2012"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1988,
+      "teams": [
+        "横浜大洋ホエールズ 横浜ベイスターズ",
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "川上哲治",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "熊本県立工業学校"
+        ],
+        "proTeams": [
+          {
+            "team": "東京巨人軍 読売ジャイアンツ",
+            "years": "1938-1942"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1938,
+      "teams": [
+        "東京巨人軍 読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "榎本喜八",
+      "career": {
+        "highSchool": [
+          "早稲田実業学校高等部"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "毎日オリオンズ 毎日大映オリオンズ 東京オリオンズ ロッテオリオンズ",
+            "years": "1955-1971"
+          },
+          {
+            "team": "西鉄ライオンズ",
+            "years": "1972"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1955,
+      "teams": [
+        "毎日オリオンズ 毎日大映オリオンズ 東京オリオンズ ロッテオリオンズ",
+        "西鉄ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "高木守道",
+      "career": {
+        "highSchool": [
+          "岐阜県立岐阜商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1960-1980"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1960,
+      "teams": [
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "若松勉",
+      "career": {
+        "highSchool": [
+          "北海高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "電電北海道"
+        ],
+        "proTeams": [
+          {
+            "team": "ヤクルトアトムズ ヤクルトスワローズ",
+            "years": "1971-1989"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1970,
+      "teams": [
+        "ヤクルトアトムズ ヤクルトスワローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "稲葉篤紀",
+      "career": {
+        "highSchool": [
+          "中京高等学校"
+        ],
+        "university": [
+          "法政大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1995-2004"
+          },
+          {
+            "team": "北海道日本ハムファイターズ",
+            "years": "2005-2014"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1994,
+      "teams": [
+        "ヤクルトスワローズ",
+        "北海道日本ハムファイターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "広瀬叔功",
+      "career": {
+        "highSchool": [
+          "広島県大竹高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "南海ホークス",
+            "years": "1955-1977"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1955,
+      "teams": [
+        "南海ホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "宮本慎也",
+      "career": {
+        "highSchool": [
+          "PL学園高等学校"
+        ],
+        "university": [
+          "同志社大学"
+        ],
+        "amateur": [
+          "プリンスホテル"
+        ],
+        "proTeams": [
+          {
+            "team": "ヤクルトスワローズ 東京ヤクルトスワローズ",
+            "years": "1995-2013"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1994,
+      "teams": [
+        "ヤクルトスワローズ 東京ヤクルトスワローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "谷繁元信",
+      "career": {
+        "highSchool": [
+          "江の川高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "横浜大洋ホエールズ 横浜ベイスターズ",
+            "years": "1989-2001"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "2002-2015"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1988,
+      "teams": [
+        "横浜大洋ホエールズ 横浜ベイスターズ",
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "古田敦也",
+      "career": {
+        "highSchool": [
+          "兵庫県立川西明峰高等学校"
+        ],
+        "university": [
+          "立命館大学"
+        ],
+        "amateur": [
+          "トヨタ自動車"
+        ],
+        "proTeams": [
+          {
+            "team": "ヤクルトスワローズ 東京ヤクルトスワローズ",
+            "years": "1990-2007"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1989,
+      "teams": [
+        "ヤクルトスワローズ 東京ヤクルトスワローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "松井稼頭央",
+      "career": {
+        "highSchool": [
+          "PL学園高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西武ライオンズ",
+            "years": "1994-2003"
+          },
+          {
+            "team": "ニューヨーク・メッツ",
+            "years": "2004-2006"
+          },
+          {
+            "team": "コロラド・ロッキーズ",
+            "years": "2006-2007"
+          },
+          {
+            "team": "ヒューストン・アストロズ",
+            "years": "2008-2010"
+          },
+          {
+            "team": "東北楽天ゴールデンイーグルス",
+            "years": "2011-2017"
+          },
+          {
+            "team": "埼玉西武ライオンズ",
+            "years": "2018"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1993,
+      "teams": [
+        "西武ライオンズ",
+        "ニューヨーク・メッツ",
+        "コロラド・ロッキーズ",
+        "ヒューストン・アストロズ",
+        "東北楽天ゴールデンイーグルス",
+        "埼玉西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "山崎裕之",
+      "career": {
+        "highSchool": [
+          "埼玉県立上尾高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "東京オリオンズ ロッテオリオンズ",
+            "years": "1965-1978"
+          },
+          {
+            "team": "西武ライオンズ",
+            "years": "1979-1984"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "東京オリオンズ ロッテオリオンズ",
+        "西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "藤田平",
+      "career": {
+        "highSchool": [
+          "和歌山市立和歌山商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪神タイガース",
+            "years": "1966-1984"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "谷沢健一",
+      "career": {
+        "highSchool": [
+          "習志野市立習志野高等学校"
+        ],
+        "university": [
+          "早稲田大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1970-1986"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1969,
+      "teams": [
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "柴田勲",
+      "career": {
+        "highSchool": [
+          "法政大学第二高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1962-1981"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1962,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "新井宏昌",
+      "career": {
+        "highSchool": [
+          "PL学園高等学校"
+        ],
+        "university": [
+          "法政大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "南海ホークス",
+            "years": "1975-1985"
+          },
+          {
+            "team": "近鉄バファローズ",
+            "years": "1986-1992"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1974,
+      "teams": [
+        "南海ホークス",
+        "近鉄バファローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "野村謙二郎",
+      "career": {
+        "highSchool": [
+          "大分県立佐伯鶴城高等学校"
+        ],
+        "university": [
+          "駒澤大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1989-2005"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1988,
+      "teams": [
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "荒木雅博",
+      "career": {
+        "highSchool": [
+          "熊本県立熊本工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1996-2018"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1995,
+      "teams": [
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "田中幸雄",
+      "career": {
+        "highSchool": [
+          "都城高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "日本ハムファイターズ 北海道日本ハムファイターズ",
+            "years": "1986-2007"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1985,
+      "teams": [
+        "日本ハムファイターズ 北海道日本ハムファイターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "駒田徳広",
+      "career": {
+        "highSchool": [
+          "奈良県立桜井商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1981-1993"
+          },
+          {
+            "team": "横浜ベイスターズ",
+            "years": "1994-2000"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1980,
+      "teams": [
+        "読売ジャイアンツ",
+        "横浜ベイスターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "福浦和也",
+      "career": {
+        "highSchool": [
+          "習志野市立習志野高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "千葉ロッテマリーンズ",
+            "years": "1994-2019"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1993,
+      "teams": [
+        "千葉ロッテマリーンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "金田正一",
+      "career": {
+        "highSchool": [
+          "名古屋電気高等学校",
+          "享栄商業高等学校 (中退)"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "国鉄スワローズ",
+            "years": "1950-1964"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1965-1969"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1950,
+      "teams": [
+        "国鉄スワローズ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "米田哲也",
+      "career": {
+        "highSchool": [
+          "鳥取県立境高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "阪急ブレーブス (1956 - 1975途中)",
+          "阪神タイガース (1975途中 - 1976)"
+        ],
+        "proTeams": [
+          {
+            "team": "近鉄バファローズ",
+            "years": "1977"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1956,
+      "teams": [
+        "近鉄バファローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "小山正明",
+      "career": {
+        "highSchool": [
+          "兵庫県立高砂高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "大阪タイガース 阪神タイガース",
+            "years": "1953-1963"
+          },
+          {
+            "team": "東京オリオンズ ロッテオリオンズ",
+            "years": "1964-1972"
+          },
+          {
+            "team": "大洋ホエールズ",
+            "years": "1973"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1953,
+      "teams": [
+        "大阪タイガース 阪神タイガース",
+        "東京オリオンズ ロッテオリオンズ",
+        "大洋ホエールズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "鈴木啓示",
+      "career": {
+        "highSchool": [
+          "育英高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "近鉄バファローズ",
+            "years": "1966-1985"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "近鉄バファローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "江夏豊",
+      "career": {
+        "highSchool": [
+          "大阪学院大学高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪神タイガース",
+            "years": "1967-1975"
+          },
+          {
+            "team": "南海ホークス",
+            "years": "1976-1977"
+          },
+          {
+            "team": "広島東洋カープ",
+            "years": "1978-1980"
+          },
+          {
+            "team": "日本ハムファイターズ",
+            "years": "1981-1983"
+          },
+          {
+            "team": "西武ライオンズ",
+            "years": "1984"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1966,
+      "teams": [
+        "阪神タイガース",
+        "南海ホークス",
+        "広島東洋カープ",
+        "日本ハムファイターズ",
+        "西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "梶本隆夫",
+      "career": {
+        "highSchool": [
+          "岐阜県立多治見工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス",
+            "years": "1954-1973"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1954,
+      "teams": [
+        "阪急ブレーブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "工藤公康",
+      "career": {
+        "highSchool": [
+          "名古屋電気高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西武ライオンズ",
+            "years": "1982-1994"
+          },
+          {
+            "team": "福岡ダイエーホークス",
+            "years": "1995-1999"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2000-2006"
+          },
+          {
+            "team": "横浜ベイスターズ",
+            "years": "2007-2009"
+          },
+          {
+            "team": "埼玉西武ライオンズ",
+            "years": "2010"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1981,
+      "teams": [
+        "西武ライオンズ",
+        "福岡ダイエーホークス",
+        "読売ジャイアンツ",
+        "横浜ベイスターズ",
+        "埼玉西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "稲尾和久",
+      "career": {
+        "highSchool": [
+          "大分県立別府緑丘高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西鉄ライオンズ",
+            "years": "1956-1969"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1956,
+      "teams": [
+        "西鉄ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "村田兆治",
+      "career": {
+        "highSchool": [
+          "福山電波工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "東京オリオンズ ロッテオリオンズ",
+            "years": "1968-1990"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1967,
+      "teams": [
+        "東京オリオンズ ロッテオリオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "村山実",
+      "career": {
+        "highSchool": [
+          "住友工業高等学校"
+        ],
+        "university": [
+          "関西大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "大阪タイガース 阪神タイガース",
+            "years": "1959-1972"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1959,
+      "teams": [
+        "大阪タイガース 阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "小野正一",
+      "career": {
+        "highSchool": [
+          "福島県立磐城高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "常磐炭鉱",
+          "清峰伸銅"
+        ],
+        "proTeams": [
+          {
+            "team": "毎日オリオンズ 大毎オリオンズ 東京オリオンズ",
+            "years": "1956-1964"
+          },
+          {
+            "team": "大洋ホエールズ",
+            "years": "1965-1967"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1968-1970"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1956,
+      "teams": [
+        "毎日オリオンズ 大毎オリオンズ 東京オリオンズ",
+        "大洋ホエールズ",
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "槙原寛己",
+      "career": {
+        "highSchool": [
+          "愛知県立大府高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1982-2001"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1981,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "川口和久",
+      "career": {
+        "highSchool": [
+          "鳥取城北高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "デュプロ"
+        ],
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1981-1994"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1995-1998"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1980,
+      "teams": [
+        "広島東洋カープ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "西口文也",
+      "career": {
+        "highSchool": [
+          "和歌山県立和歌山商業高等学校"
+        ],
+        "university": [
+          "立正大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西武ライオンズ 埼玉西武ライオンズ",
+            "years": "1995-2015"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1994,
+      "teams": [
+        "西武ライオンズ 埼玉西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "山田久志",
+      "career": {
+        "highSchool": [
+          "秋田県立能代高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "富士製鐵釜石"
+        ],
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス",
+            "years": "1969-1988"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "阪急ブレーブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "平松政次",
+      "career": {
+        "highSchool": [
+          "岡山県立岡山東商業高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "日本石油"
+        ],
+        "proTeams": [
+          {
+            "team": "大洋ホエールズ 横浜大洋ホエールズ",
+            "years": "1967-1984"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1966,
+      "teams": [
+        "大洋ホエールズ 横浜大洋ホエールズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "星野伸之",
+      "career": {
+        "highSchool": [
+          "北海道旭川工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス オリックス・ブレーブス オリックス・ブルーウェーブ",
+            "years": "1984-1999"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "2000-2002"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1983,
+      "teams": [
+        "阪急ブレーブス オリックス・ブレーブス オリックス・ブルーウェーブ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "松岡弘",
+      "career": {
+        "highSchool": [
+          "岡山県立倉敷商業高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "三菱重工水島"
+        ],
+        "proTeams": [
+          {
+            "team": "サンケイアトムズ アトムズ<br/ >ヤクルトアトムズ ヤクルトスワローズ",
+            "years": "1968-1985"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1967,
+      "teams": [
+        "サンケイアトムズ アトムズ<br/ >ヤクルトアトムズ ヤクルトスワローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "高橋一三",
+      "career": {
+        "highSchool": [
+          "広島県北川工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1965-1975"
+          },
+          {
+            "team": "日本ハムファイターズ",
+            "years": "1976-1983"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "読売ジャイアンツ",
+        "日本ハムファイターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "桑田真澄",
+      "career": {
+        "highSchool": [
+          "PL学園高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1986-2006"
+          },
+          {
+            "team": "ピッツバーグ・パイレーツ",
+            "years": "2007"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1985,
+      "teams": [
+        "読売ジャイアンツ",
+        "ピッツバーグ・パイレーツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "権藤正利",
+      "career": {
+        "highSchool": [
+          "柳川商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "大洋松竹ロビンス 洋松ロビンス 大洋ホエールズ",
+            "years": "1953-1963"
+          },
+          {
+            "team": "東映フライヤーズ",
+            "years": "1964"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "1965-1973"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1953,
+      "teams": [
+        "大洋松竹ロビンス 洋松ロビンス 大洋ホエールズ",
+        "東映フライヤーズ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "別所毅彦",
+      "career": {
+        "highSchool": null,
+        "university": [
+          "旧制日本大学(中退)"
+        ],
+        "amateur": [
+          "旧制兵庫県瀧川中学校",
+          "南海軍 グレートリング 南海ホークス(1942年 - 1943年、1946年 - 1948年)",
+          "読売ジャイアンツ(1949年 - 1961年)"
+        ],
+        "proTeams": []
+      },
+      "status": "retired",
+      "debutYear": 1942,
+      "teams": [],
+      "legend": true
+    },
+    {
+      "name": "秋山登",
+      "career": {
+        "highSchool": [
+          "岡山県立岡山東高等学校"
+        ],
+        "university": [
+          "明治大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "大洋ホエールズ",
+            "years": "1956-1967"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1956,
+      "teams": [
+        "大洋ホエールズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "堀内恒夫",
+      "career": {
+        "highSchool": [
+          "甲府市立甲府商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1966-1983"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "佐々岡真司",
+      "career": {
+        "highSchool": [
+          "島根県立浜田商業高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "NTT中国"
+        ],
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1990-2007"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1989,
+      "teams": [
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "杉下茂",
+      "career": {
+        "highSchool": null,
+        "university": [
+          "明治大学旧制専門部"
+        ],
+        "amateur": [
+          "旧制帝京商業学校",
+          "いすゞ自動車"
+        ],
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ 名古屋ドラゴンズ 中日ドラゴンズ",
+            "years": "1949-1960"
+          },
+          {
+            "team": "毎日大映オリオンズ",
+            "years": "1961"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1949,
+      "teams": [
+        "中日ドラゴンズ 名古屋ドラゴンズ 中日ドラゴンズ",
+        "毎日大映オリオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "北別府学",
+      "career": {
+        "highSchool": [
+          "宮崎県立都城農業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1976-1994"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1975,
+      "teams": [
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "杉浦忠",
+      "career": {
+        "highSchool": [
+          "愛知県立挙母高等学校"
+        ],
+        "university": [
+          "立教大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "南海ホークス",
+            "years": "1958-1970"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1958,
+      "teams": [
+        "南海ホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "佐藤義則",
+      "career": {
+        "highSchool": [
+          "函館有斗高等学校"
+        ],
+        "university": [
+          "日本大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス オリックス・ブレーブス オリックス・ブルーウェーブ",
+            "years": "1977-1998"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1976,
+      "teams": [
+        "阪急ブレーブス オリックス・ブレーブス オリックス・ブルーウェーブ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "大野豊",
+      "career": {
+        "highSchool": [
+          "島根県立出雲商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1977-1998"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1976,
+      "teams": [
+        "広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "斎藤雅樹",
+      "career": {
+        "highSchool": [
+          "川口市立川口高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1983-2001"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1982,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "新浦壽夫",
+      "career": {
+        "highSchool": [
+          "静岡県立静岡商業高等学校 (中退)"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1968-1983"
+          },
+          {
+            "team": "サムスン・ライオンズ",
+            "years": "1984-1986"
+          },
+          {
+            "team": "横浜大洋ホエールズ",
+            "years": "1987-1991"
+          },
+          {
+            "team": "福岡ダイエーホークス",
+            "years": "1992"
+          },
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1992"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "読売ジャイアンツ",
+        "サムスン・ライオンズ",
+        "横浜大洋ホエールズ",
+        "福岡ダイエーホークス",
+        "ヤクルトスワローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "東尾修",
+      "career": {
+        "highSchool": [
+          "和歌山県立箕島高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西鉄ライオンズ 太平洋クラブライオンズ クラウンライターライオンズ 西武ライオンズ",
+            "years": "1969-1988"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "西鉄ライオンズ 太平洋クラブライオンズ クラウンライターライオンズ 西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "外木場義郎",
+      "career": {
+        "highSchool": [
+          "鹿児島県立出水高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "電電九州"
+        ],
+        "proTeams": [
+          {
+            "team": "広島カープ 広島東洋カープ",
+            "years": "1965-1979"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "広島カープ 広島東洋カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "成田文男",
+      "career": {
+        "highSchool": [
+          "修徳高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "東京オリオンズ ロッテオリオンズ",
+            "years": "1965-1979"
+          },
+          {
+            "team": "日本ハムファイターズ",
+            "years": "1980-1982"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1965,
+      "teams": [
+        "東京オリオンズ ロッテオリオンズ",
+        "日本ハムファイターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "遠藤一彦",
+      "career": {
+        "highSchool": [
+          "学校法人石川高等学校"
+        ],
+        "university": [
+          "東海大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "横浜大洋ホエールズ",
+            "years": "1978-1992"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1977,
+      "teams": [
+        "横浜大洋ホエールズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "皆川睦雄",
+      "career": {
+        "highSchool": [
+          "山形県立米沢西高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "南海ホークス",
+            "years": "1954-1971"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1954,
+      "teams": [
+        "南海ホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "坂井勝二",
+      "career": {
+        "highSchool": [
+          "福岡県立田川中央高等学校"
+        ],
+        "university": [
+          "専修大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "大毎オリオンズ 東京オリオンズ ロッテオリオンズ",
+            "years": "1959-1969"
+          },
+          {
+            "team": "大洋ホエールズ",
+            "years": "1970-1975"
+          },
+          {
+            "team": "日本ハムファイターズ",
+            "years": "1976"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1959,
+      "teams": [
+        "大毎オリオンズ 東京オリオンズ ロッテオリオンズ",
+        "大洋ホエールズ",
+        "日本ハムファイターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "渡辺久信",
+      "career": {
+        "highSchool": [
+          "群馬県立前橋工業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "西武ライオンズ",
+            "years": "1984-1997"
+          },
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1998"
+          },
+          {
+            "team": "嘉南年代勇士 嘉南遠伝勇士 嘉南網客勇士",
+            "years": "1999-2001"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1983,
+      "teams": [
+        "西武ライオンズ",
+        "ヤクルトスワローズ",
+        "嘉南年代勇士 嘉南遠伝勇士 嘉南網客勇士"
+      ],
+      "legend": true
+    },
+    {
+      "name": "中尾碩志",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "京都商業学校"
+        ],
+        "proTeams": [
+          {
+            "team": "東京巨人軍 読売ジャイアンツ",
+            "years": "1939-1942"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1939,
+      "teams": [
+        "東京巨人軍 読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "西崎幸広",
+      "career": {
+        "highSchool": [
+          "滋賀県立瀬田工業高等学校"
+        ],
+        "university": [
+          "愛知工業大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "日本ハムファイターズ",
+            "years": "1987-1997"
+          },
+          {
+            "team": "西武ライオンズ",
+            "years": "1998-2001"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1986,
+      "teams": [
+        "日本ハムファイターズ",
+        "西武ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "長谷川良平",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "旧制愛知県半田商工学校",
+          "安田商店",
+          "安田繊維",
+          "新田建設",
+          "第一繊維"
+        ],
+        "proTeams": [
+          {
+            "team": "広島カープ",
+            "years": "1950-1963"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1950,
+      "teams": [
+        "広島カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "土橋正幸",
+      "career": {
+        "highSchool": [
+          "東京都立日本橋高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "東映フライヤーズ",
+            "years": "1955-1967"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1955,
+      "teams": [
+        "東映フライヤーズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "小宮山悟",
+      "career": {
+        "highSchool": [
+          "芝浦工業大学柏高等学校"
+        ],
+        "university": [
+          "早稲田大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "ロッテオリオンズ 千葉ロッテマリーンズ",
+            "years": "1990-1999"
+          },
+          {
+            "team": "横浜ベイスターズ",
+            "years": "2000-2001"
+          },
+          {
+            "team": "ニューヨーク・メッツ",
+            "years": "2002"
+          },
+          {
+            "team": "千葉ロッテマリーンズ",
+            "years": "2004-2009"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1989,
+      "teams": [
+        "ロッテオリオンズ 千葉ロッテマリーンズ",
+        "横浜ベイスターズ",
+        "ニューヨーク・メッツ",
+        "千葉ロッテマリーンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "加藤初",
+      "career": {
+        "highSchool": [
+          "吉原市立商業高等学校 富士市立吉原商業高等学校"
+        ],
+        "university": [
+          "亜細亜大学(中退)"
+        ],
+        "amateur": [
+          "大昭和製紙"
+        ],
+        "proTeams": [
+          {
+            "team": "西鉄ライオンズ 太平洋クラブライオンズ",
+            "years": "1972-1975"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1976-1990"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1971,
+      "teams": [
+        "西鉄ライオンズ 太平洋クラブライオンズ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "スタルヒン",
+      "career": {
+        "highSchool": [
+          "旭川中学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "東京巨人軍",
+            "years": "1936-1944"
+          },
+          {
+            "team": "パシフィック",
+            "years": "1946"
+          },
+          {
+            "team": "金星スターズ",
+            "years": "1947"
+          },
+          {
+            "team": "大映スターズ",
+            "years": "1948-1950"
+          },
+          {
+            "team": "高橋ユニオンズ",
+            "years": "1955"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1936,
+      "teams": [
+        "東京巨人軍",
+        "パシフィック",
+        "金星スターズ",
+        "大映スターズ",
+        "高橋ユニオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "野口二郎",
+      "career": {
+        "highSchool": null,
+        "university": [
+          "法政大学中退"
+        ],
+        "amateur": [
+          "中京商業学校"
+        ],
+        "proTeams": [
+          {
+            "team": "東京セネタース 翼軍",
+            "years": "1939-1940"
+          },
+          {
+            "team": "大洋軍 西鉄軍",
+            "years": "1941-1943"
+          },
+          {
+            "team": "阪急軍 阪急ブレーブス",
+            "years": "1946-1953"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1939,
+      "teams": [
+        "東京セネタース 翼軍",
+        "大洋軍 西鉄軍",
+        "阪急軍 阪急ブレーブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "若林忠志",
+      "career": {
+        "highSchool": null,
+        "university": [
+          "旧制法政大学"
+        ],
+        "amateur": [
+          "旧制本牧中学校",
+          "コロムビア"
+        ],
+        "proTeams": [
+          {
+            "team": "大阪タイガース 阪神軍 大阪タイガース",
+            "years": "1936-1944"
+          },
+          {
+            "team": "毎日オリオンズ",
+            "years": "1950-1953"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1936,
+      "teams": [
+        "大阪タイガース 阪神軍 大阪タイガース",
+        "毎日オリオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "藤本英雄",
+      "career": {
+        "highSchool": null,
+        "university": [
+          "旧制明治大学"
+        ],
+        "amateur": [
+          "旧制下関商業学校"
+        ],
+        "proTeams": [
+          {
+            "team": "東京巨人軍",
+            "years": "1942-1944"
+          },
+          {
+            "team": "中部日本ドラゴンズ",
+            "years": "1947"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1948-1955"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1942,
+      "teams": [
+        "東京巨人軍",
+        "中部日本ドラゴンズ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "石井茂雄",
+      "career": {
+        "highSchool": [
+          "岡山県立勝山高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス",
+            "years": "1957-1972"
+          },
+          {
+            "team": "太平洋クラブライオンズ クラウンライターライオンズ",
+            "years": "1973-1978"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1979"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1957,
+      "teams": [
+        "阪急ブレーブス",
+        "太平洋クラブライオンズ クラウンライターライオンズ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "川崎徳次",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "旧制龍谷中学校",
+          "久留米商業学校",
+          "撫順炭鉱"
+        ],
+        "proTeams": [
+          {
+            "team": "南海軍",
+            "years": "1940-1942"
+          },
+          {
+            "team": "東京巨人軍 読売ジャイアンツ",
+            "years": "1946-1949"
+          },
+          {
+            "team": "西鉄クリッパース 西鉄ライオンズ",
+            "years": "1950-1957"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1940,
+      "teams": [
+        "南海軍",
+        "東京巨人軍 読売ジャイアンツ",
+        "西鉄クリッパース 西鉄ライオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "足立光宏",
+      "career": {
+        "highSchool": [
+          "大阪市立西高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "大阪大丸"
+        ],
+        "proTeams": [
+          {
+            "team": "阪急ブレーブス",
+            "years": "1959-1980"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1959,
+      "teams": [
+        "阪急ブレーブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "真田重蔵",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "旧制和歌山県立海草中学校",
+          "朝日軍 パシフィック 太陽ロビンス 大陽ロビンス 松竹ロビンス (1943, 1946 - 1951)"
+        ],
+        "proTeams": [
+          {
+            "team": "大阪タイガース",
+            "years": "1952-1956"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1943,
+      "teams": [
+        "大阪タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "荒巻淳",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "旧制大分県立大分商業学校",
+          "旧制大分経済専門学校",
+          "星野組"
+        ],
+        "proTeams": [
+          {
+            "team": "毎日オリオンズ 毎日大映オリオンズ",
+            "years": "1950-1961"
+          },
+          {
+            "team": "阪急ブレーブス",
+            "years": "1962"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1950,
+      "teams": [
+        "毎日オリオンズ 毎日大映オリオンズ",
+        "阪急ブレーブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "高橋直樹",
+      "career": {
+        "highSchool": [
+          "大分県立津久見高等学校"
+        ],
+        "university": [
+          "早稲田大学"
+        ],
+        "amateur": [
+          "日本鋼管"
+        ],
+        "proTeams": [
+          {
+            "team": "東映フライヤーズ 日拓ホームフライヤーズ 日本ハムファイターズ",
+            "years": "1968-1980"
+          },
+          {
+            "team": "広島東洋カープ",
+            "years": "1981-1982"
+          },
+          {
+            "team": "西武ライオンズ",
+            "years": "1982-1985"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1986"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1967,
+      "teams": [
+        "東映フライヤーズ 日拓ホームフライヤーズ 日本ハムファイターズ",
+        "広島東洋カープ",
+        "西武ライオンズ",
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "西本聖",
+      "career": {
+        "highSchool": [
+          "愛媛県立松山商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1975-1988"
+          },
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1989-1992"
+          },
+          {
+            "team": "オリックス・ブルーウェーブ",
+            "years": "1993"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1994"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1974,
+      "teams": [
+        "読売ジャイアンツ",
+        "中日ドラゴンズ",
+        "オリックス・ブルーウェーブ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "星野仙一",
+      "career": {
+        "highSchool": [
+          "岡山県立倉敷商業高等学校"
+        ],
+        "university": [
+          "明治大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "中日ドラゴンズ",
+            "years": "1969-1982"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1968,
+      "teams": [
+        "中日ドラゴンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "山内新一",
+      "career": {
+        "highSchool": [
+          "島根県立邇摩高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "三菱重工三原"
+        ],
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1968-1972"
+          },
+          {
+            "team": "南海ホークス",
+            "years": "1973-1983"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "1984-1985"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1967,
+      "teams": [
+        "読売ジャイアンツ",
+        "南海ホークス",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "城之内邦雄",
+      "career": {
+        "highSchool": [
+          "千葉県立佐原第一高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "日本麦酒"
+        ],
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1962-1971"
+          },
+          {
+            "team": "ロッテオリオンズ",
+            "years": "1974"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1962,
+      "teams": [
+        "読売ジャイアンツ",
+        "ロッテオリオンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "小林繁",
+      "career": {
+        "highSchool": [
+          "鳥取県立由良育英高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "全大丸"
+        ],
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1973-1978"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "1979-1983"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1971,
+      "teams": [
+        "読売ジャイアンツ",
+        "阪神タイガース"
+      ],
+      "legend": true
+    },
+    {
+      "name": "藤村隆男",
+      "career": {
+        "highSchool": null,
+        "university": null,
+        "amateur": [
+          "旧制呉港中学校",
+          "植良組"
+        ],
+        "proTeams": [
+          {
+            "team": "大阪タイガース 阪神軍",
+            "years": "1940-1942"
+          },
+          {
+            "team": "パシフィック 太陽ロビンス",
+            "years": "1946-1947"
+          },
+          {
+            "team": "大阪タイガース",
+            "years": "1949-1956"
+          },
+          {
+            "team": "広島カープ",
+            "years": "1957"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1940,
+      "teams": [
+        "大阪タイガース 阪神軍",
+        "パシフィック 太陽ロビンス",
+        "大阪タイガース",
+        "広島カープ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "江川卓",
+      "career": {
+        "highSchool": [
+          "作新学院高等学校"
+        ],
+        "university": [
+          "法政大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1979-1987"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1979,
+      "teams": [
+        "読売ジャイアンツ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "高津臣吾",
+      "career": {
+        "highSchool": [
+          "広島県立広島工業高等学校"
+        ],
+        "university": [
+          "亜細亜大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "ヤクルトスワローズ",
+            "years": "1991-2003"
+          },
+          {
+            "team": "シカゴ・ホワイトソックス",
+            "years": "2004-2005"
+          },
+          {
+            "team": "ニューヨーク・メッツ",
+            "years": "2005"
+          },
+          {
+            "team": "東京ヤクルトスワローズ",
+            "years": "2006-2007"
+          },
+          {
+            "team": "ウリ・ヒーローズ ヒーローズ",
+            "years": "2008"
+          },
+          {
+            "team": "興農ブルズ",
+            "years": "2010"
+          },
+          {
+            "team": "新潟アルビレックスBC",
+            "years": "2011-2012"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1990,
+      "teams": [
+        "ヤクルトスワローズ",
+        "シカゴ・ホワイトソックス",
+        "ニューヨーク・メッツ",
+        "東京ヤクルトスワローズ",
+        "ウリ・ヒーローズ ヒーローズ",
+        "興農ブルズ",
+        "新潟アルビレックスBC"
+      ],
+      "legend": true
+    },
+    {
+      "name": "佐々木主浩",
+      "career": {
+        "highSchool": [
+          "東北高等学校"
+        ],
+        "university": [
+          "東北福祉大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "横浜大洋ホエールズ 横浜ベイスターズ",
+            "years": "1990-1999"
+          },
+          {
+            "team": "シアトル・マリナーズ",
+            "years": "2000-2003"
+          },
+          {
+            "team": "横浜ベイスターズ",
+            "years": "2004-2005"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1989,
+      "teams": [
+        "横浜大洋ホエールズ 横浜ベイスターズ",
+        "シアトル・マリナーズ",
+        "横浜ベイスターズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "藤川球児",
+      "career": {
+        "highSchool": [
+          "高知市立高知商業高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "阪神タイガース",
+            "years": "1999-2012"
+          },
+          {
+            "team": "シカゴ・カブス",
+            "years": "2013-2014"
+          },
+          {
+            "team": "テキサス・レンジャーズ",
+            "years": "2015"
+          },
+          {
+            "team": "高知ファイティングドッグス",
+            "years": "2015"
+          },
+          {
+            "team": "阪神タイガース",
+            "years": "2016-2020"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1998,
+      "teams": [
+        "阪神タイガース",
+        "シカゴ・カブス",
+        "テキサス・レンジャーズ",
+        "高知ファイティングドッグス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "サファテ",
+      "career": {
+        "highSchool": null,
+        "university": [
+          "アリゾナ州立大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "ミルウォーキー・ブルワーズ",
+            "years": "2006"
+          },
+          {
+            "team": "ヒューストン・アストロズ",
+            "years": "2007"
+          },
+          {
+            "team": "ボルチモア・オリオールズ",
+            "years": "2008-2009"
+          },
+          {
+            "team": "広島東洋カープ",
+            "years": "2011-2012"
+          },
+          {
+            "team": "埼玉西武ライオンズ",
+            "years": "2013"
+          },
+          {
+            "team": "福岡ソフトバンクホークス",
+            "years": "2014-2021"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 2001,
+      "teams": [
+        "ミルウォーキー・ブルワーズ",
+        "ヒューストン・アストロズ",
+        "ボルチモア・オリオールズ",
+        "広島東洋カープ",
+        "埼玉西武ライオンズ",
+        "福岡ソフトバンクホークス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "小林雅英",
+      "career": {
+        "highSchool": [
+          "山梨県立都留高等学校"
+        ],
+        "university": [
+          "日本体育大学"
+        ],
+        "amateur": [
+          "東京ガス"
+        ],
+        "proTeams": [
+          {
+            "team": "千葉ロッテマリーンズ",
+            "years": "1999-2007"
+          },
+          {
+            "team": "クリーブランド・インディアンス",
+            "years": "2008-2009"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2010"
+          },
+          {
+            "team": "オリックス・バファローズ",
+            "years": "2011"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1998,
+      "teams": [
+        "千葉ロッテマリーンズ",
+        "クリーブランド・インディアンス",
+        "読売ジャイアンツ",
+        "オリックス・バファローズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "イチロー",
+      "career": {
+        "highSchool": [
+          "愛知工業大学名電高等学校"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "オリックス・ブルーウェーブ",
+            "years": "1992-2000"
+          },
+          {
+            "team": "シアトル・マリナーズ",
+            "years": "2001-2012"
+          },
+          {
+            "team": "ニューヨーク・ヤンキース",
+            "years": "2012-2014"
+          },
+          {
+            "team": "マイアミ・マーリンズ",
+            "years": "2015-2017"
+          },
+          {
+            "team": "シアトル・マリナーズ",
+            "years": "2018-2019"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1991,
+      "teams": [
+        "オリックス・ブルーウェーブ",
+        "シアトル・マリナーズ",
+        "ニューヨーク・ヤンキース",
+        "マイアミ・マーリンズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "野茂英雄",
+      "career": {
+        "highSchool": [
+          "大阪府立成城工業高等学校"
+        ],
+        "university": null,
+        "amateur": [
+          "新日本製鐵堺"
+        ],
+        "proTeams": [
+          {
+            "team": "近鉄バファローズ",
+            "years": "1990-1994"
+          },
+          {
+            "team": "ロサンゼルス・ドジャース",
+            "years": "1995-1998"
+          },
+          {
+            "team": "ニューヨーク・メッツ",
+            "years": "1998"
+          },
+          {
+            "team": "ミルウォーキー・ブルワーズ",
+            "years": "1999"
+          },
+          {
+            "team": "デトロイト・タイガース",
+            "years": "2000"
+          },
+          {
+            "team": "ボストン・レッドソックス",
+            "years": "2001"
+          },
+          {
+            "team": "ロサンゼルス・ドジャース",
+            "years": "2002-2004"
+          },
+          {
+            "team": "タンパベイ・デビルレイズ",
+            "years": "2005"
+          },
+          {
+            "team": "レオネス・デル・カラカス",
+            "years": "2007"
+          },
+          {
+            "team": "カンザスシティ・ロイヤルズ",
+            "years": "2008"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1989,
+      "teams": [
+        "近鉄バファローズ",
+        "ロサンゼルス・ドジャース",
+        "ニューヨーク・メッツ",
+        "ミルウォーキー・ブルワーズ",
+        "デトロイト・タイガース",
+        "ボストン・レッドソックス",
+        "タンパベイ・デビルレイズ",
+        "レオネス・デル・カラカス",
+        "カンザスシティ・ロイヤルズ"
+      ],
+      "legend": true
+    },
+    {
+      "name": "上原浩治",
+      "career": {
+        "highSchool": [
+          "東海大学付属仰星高等学校"
+        ],
+        "university": [
+          "大阪体育大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "読売ジャイアンツ",
+            "years": "1999-2008"
+          },
+          {
+            "team": "ボルチモア・オリオールズ",
+            "years": "2009-2011"
+          },
+          {
+            "team": "テキサス・レンジャーズ",
+            "years": "2011-2012"
+          },
+          {
+            "team": "ボストン・レッドソックス",
+            "years": "2013-2016"
+          },
+          {
+            "team": "シカゴ・カブス",
+            "years": "2017"
+          },
+          {
+            "team": "読売ジャイアンツ",
+            "years": "2018-2019"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1998,
+      "teams": [
+        "読売ジャイアンツ",
+        "ボルチモア・オリオールズ",
+        "テキサス・レンジャーズ",
+        "ボストン・レッドソックス",
+        "シカゴ・カブス"
+      ],
+      "legend": true
+    },
+    {
+      "name": "黒田博樹",
+      "career": {
+        "highSchool": [
+          "上宮高等学校"
+        ],
+        "university": [
+          "専修大学"
+        ],
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "広島東洋カープ",
+            "years": "1997-2007"
+          },
+          {
+            "team": "ロサンゼルス・ドジャース",
+            "years": "2008-2011"
+          },
+          {
+            "team": "ニューヨーク・ヤンキース",
+            "years": "2012-2014"
+          },
+          {
+            "team": "広島東洋カープ",
+            "years": "2015-2016"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1996,
+      "teams": [
+        "広島東洋カープ",
+        "ロサンゼルス・ドジャース",
+        "ニューヨーク・ヤンキース"
+      ],
+      "legend": true
     }
   ],
   "metadata": {
