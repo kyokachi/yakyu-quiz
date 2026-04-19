@@ -108,6 +108,42 @@ body {
   color: #fff;
 }
 
+.legend-section {
+  text-align: center;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.legend-section input[type="radio"] { display: none; }
+
+.legend-btn {
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 2px solid #d4a017;
+  background: linear-gradient(135deg, #fef9e7, #fdf2d0);
+  color: #92700c;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-bottom: 0;
+}
+
+.legend-btn:hover {
+  border-color: #b8860b;
+  background: linear-gradient(135deg, #fdf2d0, #fce8a8);
+  color: #7a5d0a;
+}
+
+.legend-section input[type="radio"]:checked + .legend-btn {
+  border-color: #b8860b;
+  background: linear-gradient(135deg, #d4a017, #b8860b);
+  color: #fff;
+}
+
 .filter-details {
   margin-bottom: 16px;
 }
@@ -524,9 +560,12 @@ body {
         <label for="diff-normal">ふつう</label>
         <input type="radio" name="difficulty" id="diff-all" value="all" checked>
         <label for="diff-all">げきむず</label>
-        <input type="radio" name="difficulty" id="diff-legend" value="legend">
-        <label for="diff-legend">レジェンド</label>
       </div>
+    </div>
+
+    <div class="filter-section legend-section">
+      <input type="radio" name="difficulty" id="diff-legend" value="legend">
+      <label for="diff-legend" class="legend-btn">時代を超えた名選手に挑戦</label>
     </div>
 
     <div class="filter-section">
