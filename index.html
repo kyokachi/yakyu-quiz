@@ -922,7 +922,14 @@ body {
     if (currentIndex >= quizPlayers.length) {
       const total = quizPlayers.length;
       $('score-text').textContent = `${total}問中 ${correctCount}問 正解！`;
-      $('finish-stats').textContent = `全 ${total} 問を完了しました`;
+      const diffLabels = { easy: 'かんたん', normal: 'ふつう', all: 'げきむず', legend: 'レジェンド' };
+      let statsText = `難易度：${diffLabels[quizDifficulty] || ''}`;
+      if (quizTeam !== 'all') {
+        const teamEl = document.querySelector(`input[name="team"][value="${quizTeam}"]`);
+        const teamLabel = teamEl ? teamEl.nextElementSibling.textContent : quizTeam;
+        statsText += `｜球団：${teamLabel}`;
+      }
+      $('finish-stats').textContent = statsText;
       showScreen('finish');
     } else {
       renderQuestion();
