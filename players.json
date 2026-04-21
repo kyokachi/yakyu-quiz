@@ -86840,6 +86840,28 @@
         "ニューヨーク・ヤンキース"
       ],
       "legend": true
+    },
+    {
+      "name": "沢村栄治",
+      "career": {
+        "highSchool": [
+          "京都商業学校（中退）"
+        ],
+        "university": null,
+        "amateur": null,
+        "proTeams": [
+          {
+            "team": "大日本東京野球倶楽部 東京巨人軍",
+            "years": "1934-1937, 1940-1941, 1943"
+          }
+        ]
+      },
+      "status": "retired",
+      "debutYear": 1934,
+      "teams": [
+        "大日本東京野球倶楽部 東京巨人軍"
+      ],
+      "legend": true
     }
   ],
   "metadata": {
