@@ -85443,7 +85443,9 @@
           "島根県立出雲商業高等学校"
         ],
         "university": null,
-        "amateur": null,
+        "amateur": [
+          "出雲市信用組合"
+        ],
         "proTeams": [
           {
             "team": "広島東洋カープ",
