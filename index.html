@@ -38,23 +38,48 @@ body {
 }
 
 /* ホーム画面 */
-#home .title {
-  text-align: center;
+.hero {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px 24px;
+}
+
+.hero-title {
+  color: #fff;
   font-size: 1.8rem;
   font-weight: 800;
-  margin: 40px 0 4px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
-#home .title-accent {
-  color: #15803d;
+.hero-accent {
+  color: #86efac;
 }
 
-#home .subtitle {
-  text-align: center;
-  color: #888;
+.hero-subtitle {
+  color: rgba(255,255,255,0.85);
   font-size: 0.9rem;
-  margin-bottom: 28px;
+  margin-top: 4px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 .filter-section {
@@ -527,7 +552,7 @@ body {
 
 /* Responsive */
 @media (max-width: 480px) {
-  #home .title { font-size: 1.4rem; }
+  .hero-title { font-size: 1.4rem; }
   .card { padding: 18px 14px; }
   .answer-name { font-size: 1.6rem; }
   .btn-reveal, .btn-knew, .btn-didnt { padding: 12px 24px; }
@@ -545,8 +570,13 @@ body {
 
   <!-- ホーム画面 -->
   <div id="home" style="display:none">
-    <h1 class="title">プロ野球 <span class="title-accent">経歴</span>クイズ</h1>
-    <p class="subtitle">経歴からプロ野球選手を当てよう</p>
+    <div class="hero">
+      <img class="hero-img" src="images/ヒーロー画像.png" alt="野球場のシルエット">
+      <div class="hero-overlay">
+        <h1 class="hero-title">プロ野球<br><span class="hero-accent">経歴</span>クイズ</h1>
+        <p class="hero-subtitle">経歴からプロ野球選手を当てよう</p>
+      </div>
+    </div>
 
     <div class="filter-section">
       <label>難易度</label>
