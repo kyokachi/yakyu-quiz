@@ -719,6 +719,7 @@ body {
       <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
     <button class="btn-retry" id="btn-retry">もう一度</button>
+    <button class="btn-retry" id="btn-new" style="background:#16a34a;">別の問題に挑戦</button>
     <button class="btn-home" id="btn-home-finish">ホームに戻る</button>
   </div>
 
@@ -954,6 +955,17 @@ body {
   // Finish screen buttons
   $('btn-retry').addEventListener('click', () => {
     quizPlayers = shuffle(quizPlayers);
+    currentIndex = 0;
+    correctCount = 0;
+    showScreen('quiz');
+    renderQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  $('btn-new').addEventListener('click', () => {
+    const filtered = getFilteredPlayers();
+    if (filtered.length === 0) return;
+    quizPlayers = shuffle(filtered).slice(0, quizLimit);
     currentIndex = 0;
     correctCount = 0;
     showScreen('quiz');
