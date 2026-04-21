@@ -26,8 +26,8 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
-  background: #f0f4e8;
-  color: #1a2e1a;
+  background: #0f172a;
+  color: #f1f5f9;
   min-height: 100dvh;
 }
 
@@ -55,7 +55,7 @@ body {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+  background: linear-gradient(to top, rgba(15,23,42,0.85) 0%, rgba(15,23,42,0.1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -72,29 +72,29 @@ body {
 }
 
 .hero-accent {
-  color: #86efac;
+  color: #f59e0b;
 }
 
 .hero-subtitle {
-  color: rgba(255,255,255,0.85);
+  color: rgba(255,255,255,0.75);
   font-size: 0.9rem;
   margin-top: 4px;
   text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 .filter-section {
-  background: #fff;
+  background: #1e293b;
   border-radius: 12px;
   padding: 16px 20px;
   margin-bottom: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  border: 1px solid #334155;
 }
 
 .filter-section label {
   display: block;
   font-weight: 700;
   font-size: 0.85rem;
-  color: #555;
+  color: #94a3b8;
   margin-bottom: 8px;
 }
 
@@ -114,22 +114,22 @@ body {
   font-size: 0.85rem;
   padding: 6px 14px;
   border-radius: 20px;
-  border: 2px solid #e5e7eb;
-  color: #555;
+  border: 2px solid #334155;
+  color: #94a3b8;
   cursor: pointer;
   transition: all 0.15s;
   margin-bottom: 0;
 }
 
 .radio-group label:hover {
-  border-color: #86efac;
-  background: #f0fdf4;
-  color: #15803d;
+  border-color: #60a5fa;
+  background: rgba(59,130,246,0.1);
+  color: #93c5fd;
 }
 
 .radio-group input[type="radio"]:checked + label {
-  border-color: #15803d;
-  background: #15803d;
+  border-color: #3b82f6;
+  background: #3b82f6;
   color: #fff;
 }
 
@@ -146,22 +146,22 @@ body {
   font-size: 0.9rem;
   padding: 6px 20px;
   border-radius: 12px;
-  border: 2px solid #d4a017;
-  background: linear-gradient(135deg, #fef9e7, #fdf2d0);
-  color: #92700c;
+  border: 2px solid #b8860b;
+  background: linear-gradient(135deg, rgba(212,160,23,0.15), rgba(184,134,11,0.1));
+  color: #fbbf24;
   cursor: pointer;
   transition: all 0.15s;
   margin-bottom: 0;
 }
 
 .legend-btn:hover {
-  border-color: #b8860b;
-  background: linear-gradient(135deg, #fdf2d0, #fce8a8);
-  color: #7a5d0a;
+  border-color: #d4a017;
+  background: linear-gradient(135deg, rgba(212,160,23,0.25), rgba(184,134,11,0.2));
+  color: #fcd34d;
 }
 
 .legend-wrapper input[type="radio"]:checked + .legend-btn {
-  border-color: #b8860b;
+  border-color: #d4a017;
   background: linear-gradient(135deg, #d4a017, #b8860b);
   color: #fff;
 }
@@ -178,12 +178,12 @@ body {
   width: 100%;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #15803d;
+  color: #93c5fd;
   cursor: pointer;
   padding: 10px 16px;
-  border: 2px solid #bbf7d0;
+  border: 2px solid #334155;
   border-radius: 10px;
-  background: #f0fdf4;
+  background: #1e293b;
   user-select: none;
   transition: all 0.15s;
   list-style: none;
@@ -196,8 +196,8 @@ body {
   display: inline-block;
   width: 6px;
   height: 6px;
-  border-right: 2px solid #15803d;
-  border-bottom: 2px solid #15803d;
+  border-right: 2px solid #93c5fd;
+  border-bottom: 2px solid #93c5fd;
   transform: rotate(45deg);
   transition: transform 0.2s;
   margin-top: -2px;
@@ -209,8 +209,8 @@ body {
 }
 
 .filter-toggle:hover {
-  background: #dcfce7;
-  border-color: #86efac;
+  background: #263548;
+  border-color: #60a5fa;
 }
 
 .filter-details-body {
@@ -218,24 +218,24 @@ body {
 }
 
 .filter-group {
-  background: #fff;
+  background: #1e293b;
   border-radius: 12px;
   padding: 16px 20px;
   margin-bottom: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  border: 1px solid #334155;
 }
 
 .filter-group label:first-child {
   display: block;
   font-weight: 700;
   font-size: 0.85rem;
-  color: #555;
+  color: #94a3b8;
   margin-bottom: 8px;
 }
 
 #player-count {
   text-align: center;
-  color: #888;
+  color: #94a3b8;
   font-size: 0.85rem;
   margin-bottom: 16px;
 }
@@ -247,17 +247,17 @@ body {
   font-size: 1.1rem;
   font-weight: 700;
   color: #fff;
-  background: #92400e;
+  background: #f59e0b;
   border: none;
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.2s;
-  box-shadow: 0 2px 8px rgba(146,64,14,0.3);
+  box-shadow: 0 2px 8px rgba(245,158,11,0.3);
 }
 
-.btn-start:hover { background: #78350f; box-shadow: 0 4px 12px rgba(146,64,14,0.4); }
+.btn-start:hover { background: #d97706; box-shadow: 0 4px 12px rgba(245,158,11,0.4); }
 .btn-start:active { transform: scale(0.98); }
-.btn-start:disabled { background: #cbd5e1; cursor: not-allowed; box-shadow: none; }
+.btn-start:disabled { background: #334155; color: #64748b; cursor: not-allowed; box-shadow: none; }
 
 /* 問題画面 */
 #quiz { display: none; }
@@ -271,7 +271,7 @@ body {
 
 .back-link {
   font-size: 0.85rem;
-  color: #15803d;
+  color: #93c5fd;
   text-decoration: none;
   cursor: pointer;
 }
@@ -280,15 +280,15 @@ body {
 
 .counter {
   font-size: 0.85rem;
-  color: #888;
+  color: #94a3b8;
   font-weight: 600;
 }
 
 .card {
-  background: #fff;
+  background: #1e293b;
   border-radius: 12px;
   padding: 24px 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  border: 1px solid #334155;
   margin-bottom: 16px;
 }
 
@@ -309,18 +309,18 @@ body {
 }
 
 .badge-active {
-  background: #dcfce7;
-  color: #166534;
+  background: rgba(34,197,94,0.15);
+  color: #4ade80;
 }
 
 .badge-retired {
-  background: #f3f4f6;
-  color: #6b7280;
+  background: rgba(148,163,184,0.15);
+  color: #94a3b8;
 }
 
 .badge-debut {
-  background: #fef3c7;
-  color: #92400e;
+  background: rgba(245,158,11,0.15);
+  color: #fbbf24;
 }
 
 .career-list {
@@ -331,7 +331,7 @@ body {
   display: flex;
   align-items: baseline;
   padding: 10px 0;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #334155;
   gap: 10px;
 }
 
@@ -347,7 +347,7 @@ body {
 .career-label {
   font-size: 0.8rem;
   font-weight: 700;
-  color: #888;
+  color: #64748b;
   flex-shrink: 0;
   width: 50px;
 }
@@ -368,13 +368,13 @@ body {
 .pro-team-item + .pro-team-item::before {
   content: "↓";
   display: block;
-  color: #bbb;
+  color: #475569;
   font-size: 0.8rem;
   padding: 2px 0;
 }
 
 .team-years {
-  color: #888;
+  color: #64748b;
   font-size: 0.8rem;
   margin-left: 4px;
 }
@@ -403,6 +403,7 @@ body {
 .answer-name {
   font-size: 2rem;
   font-weight: 800;
+  color: #fff;
   opacity: 0;
   transition: opacity 0.5s;
   margin: 16px 0;
@@ -436,18 +437,19 @@ body {
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
-  background: #9ca3af;
+  background: #64748b;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: background 0.15s;
 }
 
-.btn-didnt:hover { background: #6b7280; }
+.btn-didnt:hover { background: #475569; }
 
 .score-text {
   font-size: 1.8rem;
   font-weight: 800;
+  color: #f59e0b;
   margin: 16px 0 8px;
 }
 
@@ -459,18 +461,18 @@ body {
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
-  background: #000;
-  border: none;
+  background: #1e293b;
+  border: 2px solid #334155;
   border-radius: 10px;
   cursor: pointer;
-  transition: background 0.15s;
+  transition: all 0.15s;
   margin-bottom: 24px;
 }
 
-.btn-share:hover { background: #333; }
+.btn-share:hover { background: #334155; }
 
-.btn-share-line { background: #06C755; }
-.btn-share-line:hover { background: #05a648; }
+.btn-share-line { background: #06C755; border-color: #06C755; }
+.btn-share-line:hover { background: #05a648; border-color: #05a648; }
 
 /* 終了画面 */
 #finish {
@@ -490,7 +492,7 @@ body {
 }
 
 #finish .finish-stats {
-  color: #888;
+  color: #94a3b8;
   margin-bottom: 24px;
 }
 
@@ -500,42 +502,42 @@ body {
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
-  background: #15803d;
+  background: #3b82f6;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   margin-right: 8px;
 }
 
-.btn-retry:hover { background: #116932; }
+.btn-retry:hover { background: #2563eb; }
 
 .btn-home {
   display: inline-block;
   padding: 12px 32px;
   font-size: 1rem;
   font-weight: 700;
-  color: #15803d;
-  background: #fff;
-  border: 2px solid #15803d;
+  color: #93c5fd;
+  background: transparent;
+  border: 2px solid #334155;
   border-radius: 10px;
   cursor: pointer;
 }
 
-.btn-home:hover { background: #f0fdf4; }
+.btn-home:hover { background: #1e293b; border-color: #93c5fd; }
 
 /* Loading */
 #loading {
   text-align: center;
   padding-top: 80px;
-  color: #888;
+  color: #94a3b8;
 }
 
 .spinner {
   display: inline-block;
   width: 32px;
   height: 32px;
-  border: 3px solid #ddd;
-  border-top-color: #15803d;
+  border: 3px solid #334155;
+  border-top-color: #3b82f6;
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
   margin-bottom: 12px;
