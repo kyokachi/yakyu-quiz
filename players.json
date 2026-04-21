@@ -85765,10 +85765,11 @@
     {
       "name": "長谷川良平",
       "career": {
-        "highSchool": null,
+        "highSchool": [
+          "旧制愛知県半田商工学校"
+        ],
         "university": null,
         "amateur": [
-          "旧制愛知県半田商工学校",
           "安田商店",
           "安田繊維",
           "新田建設",
