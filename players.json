@@ -721,7 +721,8 @@
       "teams": [
         "読売ジャイアンツ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "泉圭輔",
@@ -9762,7 +9763,8 @@
       "teams": [
         "読売ジャイアンツ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "吉川光夫",
@@ -11733,7 +11735,8 @@
       "teams": [
         "阪神タイガース"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "岡﨑太一",
@@ -13536,7 +13539,8 @@
       "teams": [
         "阪神タイガース"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "佐藤蓮",
@@ -14883,7 +14887,8 @@
       "teams": [
         "阪神タイガース"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "辻󠄀本賢人",
@@ -15302,7 +15307,8 @@
       "teams": [
         "阪神タイガース"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "中村泰広",
@@ -17741,7 +17747,8 @@
       "teams": [
         "阪神タイガース"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "森田一成",
@@ -20608,7 +20615,8 @@
       "debutYear": 2019,
       "teams": [
         "広島東洋カープ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "小林樹斗",
@@ -21466,7 +21474,8 @@
       "debutYear": 2022,
       "teams": [
         "広島東洋カープ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "末永真史",
@@ -27367,7 +27376,8 @@
       "teams": [
         "中日ドラゴンズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "岡本真或",
@@ -36763,7 +36773,8 @@
       "teams": [
         "横浜DeNAベイスターズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "佐村・トラヴィス・幹久",
@@ -42212,7 +42223,8 @@
       "debutYear": 2021,
       "teams": [
         "東京ヤクルトスワローズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "ジェイソン・ウルキデス",
