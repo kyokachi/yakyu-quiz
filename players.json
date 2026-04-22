@@ -4639,7 +4639,8 @@
       "debutYear": 2022,
       "teams": [
         "読売ジャイアンツ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "平良拳太郎",
@@ -10709,7 +10710,8 @@
       "debutYear": 2018,
       "teams": [
         "阪神タイガース"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "石井将希",
@@ -12118,7 +12120,8 @@
       "debutYear": 2020,
       "teams": [
         "阪神タイガース"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "甲斐雄平",
@@ -12775,7 +12778,8 @@
       "debutYear": 2022,
       "teams": [
         "阪神タイガース"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "楠本泰史",
@@ -20384,7 +20388,8 @@
       "debutYear": 2021,
       "teams": [
         "広島東洋カープ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "栗原健太",
@@ -21163,7 +21168,8 @@
       "debutYear": 2019,
       "teams": [
         "広島東洋カープ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "清水叶人",
@@ -25297,7 +25303,8 @@
       "debutYear": 2021,
       "teams": [
         "広島東洋カープ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "森下暢仁",
@@ -29156,7 +29163,8 @@
       "debutYear": 2018,
       "teams": [
         "中日ドラゴンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "ジョーダン・ノルベルト",
@@ -31816,7 +31824,8 @@
       "debutYear": 2017,
       "teams": [
         "中日ドラゴンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "ブライト健太",
@@ -32309,7 +32318,8 @@
       "debutYear": 2023,
       "teams": [
         "中日ドラゴンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "ワーナー・マドリガル",
@@ -34171,7 +34181,8 @@
       "debutYear": 2020,
       "teams": [
         "横浜DeNAベイスターズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "井手正太郎",
@@ -34422,7 +34433,8 @@
       "debutYear": 2021,
       "teams": [
         "横浜DeNAベイスターズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "ジョー・ウィーランド",
@@ -38445,7 +38457,8 @@
       "debutYear": 2018,
       "teams": [
         "横浜DeNAベイスターズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "中川大志",
@@ -42527,7 +42540,8 @@
       "debutYear": 2020,
       "teams": [
         "東京ヤクルトスワローズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "大場達也",
@@ -44486,7 +44500,8 @@
       "debutYear": 2019,
       "teams": [
         "東京ヤクルトスワローズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "下川隼佑",
@@ -46646,7 +46661,8 @@
       "debutYear": 2017,
       "teams": [
         "東京ヤクルトスワローズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "星野雄大",
