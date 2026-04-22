@@ -99,7 +99,8 @@
       "debutYear": 2022,
       "teams": [
         "読売ジャイアンツ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "秋広優人",
@@ -990,7 +991,8 @@
       "debutYear": 2020,
       "teams": [
         "読売ジャイアンツ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "今村信貴",
@@ -5970,7 +5972,8 @@
       "debutYear": 2019,
       "teams": [
         "読売ジャイアンツ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "戸田懐生",
@@ -9348,7 +9351,8 @@
       "debutYear": 2021,
       "teams": [
         "読売ジャイアンツ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "山下航汰",
@@ -11040,7 +11044,8 @@
       "debutYear": 2025,
       "teams": [
         "阪神タイガース"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "茨木秀俊",
@@ -11690,7 +11695,8 @@
       "teams": [
         "福岡ソフトバンクホークス",
         "阪神タイガース"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "大橋雅法",
@@ -13317,7 +13323,8 @@
       "debutYear": 2017,
       "teams": [
         "阪神タイガース"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "齋藤友貴哉",
@@ -17430,7 +17437,8 @@
       "teams": [
         "阪神タイガース"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "ランディ・メッセンジャー",
@@ -22744,7 +22752,8 @@
       "debutYear": 2017,
       "teams": [
         "広島東洋カープ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "戸田隆矢",
@@ -25241,7 +25250,8 @@
       "debutYear": 2022,
       "teams": [
         "広島東洋カープ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "森跳二",
@@ -25311,7 +25321,8 @@
       "teams": [
         "広島東洋カープ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "エマイリン・モンティージャ",
@@ -27842,7 +27853,8 @@
       "debutYear": 2025,
       "teams": [
         "中日ドラゴンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "金本明博",
@@ -29765,7 +29777,8 @@
       "debutYear": 2021,
       "teams": [
         "中日ドラゴンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "髙松渡",
@@ -33796,7 +33809,8 @@
       "teams": [
         "横浜DeNAベイスターズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "東妻純平",
@@ -42778,7 +42792,8 @@
       "debutYear": 2020,
       "teams": [
         "東京ヤクルトスワローズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "押本健彦",
@@ -48240,7 +48255,8 @@
       "debutYear": 2023,
       "teams": [
         "東京ヤクルトスワローズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "米野智人",
