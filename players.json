@@ -53882,7 +53882,8 @@
       "teams": [
         "福岡ソフトバンクホークス"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "山川穂高",
@@ -58221,7 +58222,8 @@
       "teams": [
         "埼玉西武ライオンズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "タイラー・ネビン",
@@ -58432,7 +58434,8 @@
       "debutYear": 2021,
       "teams": [
         "埼玉西武ライオンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "羽田慎之介",
@@ -60655,7 +60658,8 @@
       "debutYear": 2025,
       "teams": [
         "埼玉西武ライオンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "渡邉勇太朗",
@@ -64006,7 +64010,8 @@
       "debutYear": 2024,
       "teams": [
         "東北楽天ゴールデンイーグルス"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "中島俊哉",
@@ -65586,7 +65591,8 @@
       "debutYear": 2025,
       "teams": [
         "東北楽天ゴールデンイーグルス"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "村林一輝",
@@ -65608,7 +65614,8 @@
       "teams": [
         "東北楽天ゴールデンイーグルス"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "森雄大",
@@ -69113,7 +69120,8 @@
       "debutYear": 2024,
       "teams": [
         "千葉ロッテマリーンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "土居豪人",
@@ -69419,7 +69427,8 @@
       "debutYear": 2025,
       "teams": [
         "千葉ロッテマリーンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "西川僚祐",
@@ -70182,7 +70191,8 @@
       "debutYear": 2019,
       "teams": [
         "千葉ロッテマリーンズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "二木康太",
@@ -73467,7 +73477,8 @@
       "debutYear": 2018,
       "teams": [
         "北海道日本ハムファイターズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "古林睿煬",
@@ -75850,7 +75861,8 @@
       "teams": [
         "北海道日本ハムファイターズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "水野達稀",
@@ -77442,7 +77454,8 @@
       "debutYear": 2019,
       "teams": [
         "オリックス・バファローズ"
-      ]
+      ],
+      "normal": true
     },
     {
       "name": "大山暁史",
@@ -78137,7 +78150,8 @@
       "teams": [
         "オリックス・バファローズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "元謙太",
@@ -79116,7 +79130,8 @@
       "teams": [
         "オリックス・バファローズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "鈴木昂平",
@@ -79824,7 +79839,8 @@
       "teams": [
         "オリックス・バファローズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "内藤鵬",
@@ -79869,7 +79885,8 @@
       "teams": [
         "オリックス・バファローズ"
       ],
-      "famous": true
+      "famous": true,
+      "normal": true
     },
     {
       "name": "長田勝",
